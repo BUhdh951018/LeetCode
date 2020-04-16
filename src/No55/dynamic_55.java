@@ -1,5 +1,7 @@
 package No55;
 
+import java.util.Arrays;
+
 public class dynamic_55 {
     enum Index {
         GOOD, BAD, UNKNOWN
@@ -8,9 +10,8 @@ public class dynamic_55 {
     Index[] memo;
     public boolean canJump(int[] nums) {
         memo = new Index[nums.length];
-        for (int i = 0; i < memo.length; i++) {
-            memo[i] = Index.UNKNOWN;
-        }
+        Arrays.fill(memo, Index.UNKNOWN);
+
         memo[memo.length - 1] = Index.GOOD;
         return canJumpToEnd(0, nums);
     }
