@@ -20,6 +20,11 @@ public class sort_56 {
             }
         });
 
+        for (int i = 0; i < intervals.length; i++) {
+            for (int j = 0; j < 2; j++)
+                System.out.println(intervals[i][j]);
+        }
+
         int[] curr_interval = intervals[0];
         List<int[]> list = new ArrayList<>();
         list.add(curr_interval);

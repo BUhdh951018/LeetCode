@@ -13,6 +13,5 @@ public class test_56 {
             System.out.println(Arrays.toString(matrix[i]));
         }
 
-
     }
 }
