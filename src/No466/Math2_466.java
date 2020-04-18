@@ -14,8 +14,8 @@ public class Math2_466 {
         int[] countr = new int[s2Chars.length + 1];
 
         for (int i = 0; i < n1; i++) {
-            for (int j = 0; j < s1Chars.length; j++) {
-                if (s1Chars[j] == s2Chars[index]) {
+            for (char s1Char : s1Chars) {
+                if (s1Char == s2Chars[index]) {
                     if (index == s2Chars.length - 1) {
                         count++;
                         index = 0;
@@ -28,10 +28,12 @@ public class Math2_466 {
             countr[i] = count;
             indexr[i] = index;
 
-            for (int k = 0; k < i && indexr[k] == index; k++) {
+            int k = 0;
+            if (k < i && indexr[k] == index) {
                 int prev_count = countr[k];
-                int pattern_count = ((n1 - 1 - k) / (i - k) * (countr[i] - countr[k]));
-                int remain_count = countr[k + (n1 - 1 - k) % (i - k)] - countr[k];
+                int pattern_count = ((n1 - 1) / i * (countr[i] - countr[k]));
+                int remain_count = countr[(n1 - 1) % i] - countr[k];
+                System.out.printf("%d %d %d\n", prev_count, pattern_count, remain_count);
                 return (prev_count + pattern_count + remain_count) / n2;
             }
         }
