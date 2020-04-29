@@ -9,14 +9,10 @@
   | :---: | :---: |
   | 面试题62 | [圆圈中最后剩下的数字](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_62) |
 ### Dynamic Programming
-| Number | Answer |
-  | :---: | :---: |
-  | 面试题 08.11 | [硬币](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_08_11) |
-  | 32 | [最长有效括号](https://github.com/BUhdh951018/LeetCode/tree/master/src/No32) |
-  | 42 | [接雨水](https://github.com/BUhdh951018/LeetCode/tree/master/src/No42) |
-  | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
-  | 64 | [最小路径和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No64) |
-  | 72 | [编辑距离](https://github.com/BUhdh951018/LeetCode/tree/master/src/No72) |
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 面试题 08.11 | [硬币](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_08_11) | 32 | [最长有效括号](https://github.com/BUhdh951018/LeetCode/tree/master/src/No32) | 42 | [接雨水](https://github.com/BUhdh951018/LeetCode/tree/master/src/No42) | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
+  | 64 | [最小路径和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No64) | 72 | [编辑距离](https://github.com/BUhdh951018/LeetCode/tree/master/src/No72) |
 ### Greed
 | Number | Answer |
   | :---: | :---: |
