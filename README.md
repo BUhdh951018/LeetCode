@@ -6,7 +6,7 @@
   | 46 | [全排列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No46) |
   | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
 
-2. Dynamic Programming
+###　Dynamic Programming
 
 3. Greed
 
