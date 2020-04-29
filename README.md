@@ -6,19 +6,27 @@
   | 46 | [全排列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No46) |
   | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
 
-###　Dynamic Programming
-
-3. Greed
-
-4. Double Point
-
-5. Depth-first Search
-
-6. Breadth-first Search
-
-7. Stack
-
-8. Sort
-
-9. Queue
-
+### Dynamic Programming
+| Number | Answer |
+  | :---: | :---: |
+### Greed
+| Number | Answer |
+  | :---: | :---: |
+### Double Point
+| Number | Answer |
+  | :---: | :---: |
+### Depth-first Search
+| Number | Answer |
+  | :---: | :---: |
+### Breadth-first Search
+| Number | Answer |
+  | :---: | :---: |
+### Stack
+| Number | Answer |
+  | :---: | :---: |
+### Sort
+| Number | Answer |
+  | :---: | :---: |
+### Queue
+| Number | Answer |
+  | :---: | :---: |
