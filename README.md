@@ -2,7 +2,7 @@
 1.Backtrack
 | Number | Answer |
 | --- | --- |
-| No22 | [No22](https://github.com/BUhdh951018/LeetCode/tree/master/src/No22)|
-  - [No22](https://github.com/BUhdh951018/LeetCode/tree/master/src/No22)
-  - [No46](https://github.com/BUhdh951018/LeetCode/tree/master/src/No46)
-  - [No55](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55)
+| 22 | [括号生成](https://github.com/BUhdh951018/LeetCode/tree/master/src/No22)|
+| 46 | [全排列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No46) |
+| 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
+
