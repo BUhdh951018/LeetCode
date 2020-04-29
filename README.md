@@ -9,6 +9,7 @@
 ### Dynamic Programming
 | Number | Answer |
   | :---: | :---: |
+  | 面试题 08.11 | [硬币](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_08_11) |
 ### Greed
 | Number | Answer |
   | :---: | :---: |
@@ -18,9 +19,11 @@
 ### Depth-first Search
 | Number | Answer |
   | :---: | :---: |
+  | 面试题 13 | [机器人的运动范围](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_13) |
 ### Breadth-first Search
 | Number | Answer |
   | :---: | :---: |
+  | 面试题 13 | [机器人的运动范围](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_13) |
 ### Stack
 | Number | Answer |
   | :---: | :---: |
