@@ -2,11 +2,7 @@
 ### Backtrack
   | Number | Answer | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 17 | [电话号码的字母组合](https://github.com/BUhdh951018/LeetCode/tree/master/src/No17)|
-  | 22 | [括号生成](https://github.com/BUhdh951018/LeetCode/tree/master/src/No22)|
-  | 39 | [组合总和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No39) |
-  | 46 | [全排列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No46) |
-  | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
+  | 17 | [电话号码的字母组合](https://github.com/BUhdh951018/LeetCode/tree/master/src/No17) | 22 | [括号生成](https://github.com/BUhdh951018/LeetCode/tree/master/src/No22) | 39 | [组合总和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No39) | 46 | [全排列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No46) | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
 ### Recursive
   | Number | Answer |
   | :---: | :---: |
