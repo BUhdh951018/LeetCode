@@ -18,23 +18,22 @@
   | :---: | :---: |
   | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
 ### Double Point
-| Number | Answer |
-  | :---: | :---: |
-  | 11 | [盛最多水的容器](https://github.com/BUhdh951018/LeetCode/tree/master/src/No11)|
-  | 42 | [接雨水](https://github.com/BUhdh951018/LeetCode/tree/master/src/No42) |
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 11 | [盛最多水的容器](https://github.com/BUhdh951018/LeetCode/tree/master/src/No11)| 42 | [接雨水](https://github.com/BUhdh951018/LeetCode/tree/master/src/No42) | 141 | [环形链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No141) | 148 | [排序链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No148) |
 ### Depth-first Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 面试题 13 | [机器人的运动范围](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_13) | 39 | [组合总和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No39) | 79 | [单词搜索](https://github.com/BUhdh951018/LeetCode/tree/master/src/No79) |
+  | 面试题 13 | [机器人的运动范围](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_13) | 39 | [组合总和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No39) | 79 | [单词搜索](https://github.com/BUhdh951018/LeetCode/tree/master/src/No79) | 114 | [二叉树展开为链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No114) |
+  | 152 | [乘积最大子数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No152) |
 ### Breadth-first Search
 | Number | Answer |
   | :---: | :---: |
   | 面试题 13 | [机器人的运动范围](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_13) |
 ### Binary Search
-| Number | Answer |
-  | :---: | :---: |
-  | 33 | [搜索旋转排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No33) |
-  | 34 | [在排序数组中查找元素的第一个和最后一个](https://github.com/BUhdh951018/LeetCode/tree/master/src/No34) |
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 33 | [搜索旋转排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No33) | 34 | [在排序数组中查找元素的第一个和最后一个](https://github.com/BUhdh951018/LeetCode/tree/master/src/No34) | 139 | [单词拆分](https://github.com/BUhdh951018/LeetCode/tree/master/src/No34) |
 ### Stack
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -46,8 +45,16 @@
 ### Queue
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 101 |  [对称二叉树](https://github.com/BUhdh951018/LeetCode/tree/master/src/No101) | 102 |  [二叉树的层序遍历](https://github.com/BUhdh951018/LeetCode/tree/master/src/No102) |
+  | 101 |  [对称二叉树](https://github.com/BUhdh951018/LeetCode/tree/master/src/No101) | 102 |  [二叉树的层序遍历](https://github.com/BUhdh951018/LeetCode/tree/master/src/No102) | 151 | [翻转字符串里的单词](https://github.com/BUhdh951018/LeetCode/tree/master/src/No151) |
+### Hash
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 142 |  [环形链表Ⅱ](https://github.com/BUhdh951018/LeetCode/tree/master/src/No142) |
 ### Sort
 | Number | Answer |
   | :---: | :---: |
   | 56 | [合并区间](https://github.com/BUhdh951018/LeetCode/tree/master/src/No56) |
+### Application
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 146 | [LRU缓存机制](https://github.com/BUhdh951018/LeetCode/tree/master/src/No146) |
