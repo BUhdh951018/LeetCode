@@ -28,8 +28,8 @@
   | 面试题 13 | [机器人的运动范围](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_13) | 39 | [组合总和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No39) | 79 | [单词搜索](https://github.com/BUhdh951018/LeetCode/tree/master/src/No79) | 114 | [二叉树展开为链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No114) |
   | 199 | [二叉树的右视图](https://github.com/BUhdh951018/LeetCode/tree/master/src/No199) | 200 | [岛屿数量](https://github.com/BUhdh951018/LeetCode/tree/master/src/No200) |
 ### Breadth-first Search
-| Number | Answer |
-  | :---: | :---: |
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 面试题 13 | [机器人的运动范围](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_13) | 199 | [二叉树的右视图](https://github.com/BUhdh951018/LeetCode/tree/master/src/No199) | 200 | [岛屿数量](https://github.com/BUhdh951018/LeetCode/tree/master/src/No200) |
 ### Binary Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
