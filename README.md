@@ -51,7 +51,7 @@
 ### Hash
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 142 |  [环形链表Ⅱ](https://github.com/BUhdh951018/LeetCode/tree/master/src/No142) | 169 | [多数元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No169) |
+  | 3 |  [无重复字符的最长子串](https://github.com/BUhdh951018/LeetCode/tree/master/src/No3) | 142 |  [环形链表Ⅱ](https://github.com/BUhdh951018/LeetCode/tree/master/src/No142) | 169 | [多数元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No169) |
 ### Sort
 | Number | Answer |
   | :---: | :---: |
