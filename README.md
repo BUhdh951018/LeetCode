@@ -7,12 +7,13 @@
 ### Recursive
   | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 面试题62 | [圆圈中最后剩下的数字](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_62) | 105 | [从前序与中序遍历序列构造二叉树](https://github.com/BUhdh951018/LeetCode/tree/master/src/105) |
+  | 面试题62 | [圆圈中最后剩下的数字](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_62) | 105 | [从前序与中序遍历序列构造二叉树](https://github.com/BUhdh951018/LeetCode/tree/master/src/No105) | 206 | [反转链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No206) | 226 | [翻转二叉树](https://github.com/BUhdh951018/LeetCode/tree/master/src/No226) |
 ### Dynamic Programming
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 面试题 08.11 | [硬币](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_08_11) | 32 | [最长有效括号](https://github.com/BUhdh951018/LeetCode/tree/master/src/No32) | 42 | [接雨水](https://github.com/BUhdh951018/LeetCode/tree/master/src/No42) | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) |
   | 64 | [最小路径和](https://github.com/BUhdh951018/LeetCode/tree/master/src/No64) | 72 | [编辑距离](https://github.com/BUhdh951018/LeetCode/tree/master/src/No72) | 152 | [乘积最大子数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No152) | 198 | [打家劫舍](https://github.com/BUhdh951018/LeetCode/tree/master/src/No198) |
+  | 221 | [最大正方形](https://github.com/BUhdh951018/LeetCode/tree/master/src/No221) | 279 | [完全平方数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No279) | 300 | [最长上升子序列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No300) |
 ### Greed
 | Number | Answer |
   | :---: | :---: |
@@ -21,7 +22,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 11 | [盛最多水的容器](https://github.com/BUhdh951018/LeetCode/tree/master/src/No11)| 42 | [接雨水](https://github.com/BUhdh951018/LeetCode/tree/master/src/No42) | 141 | [环形链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No141) | 148 | [排序链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No148) |
-  | 160 | [相交链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No160) |
+  | 160 | [相交链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No160) | 234 | [回文链表](https://github.com/BUhdh951018/LeetCode/tree/master/src/No234) |
 ### Depth-first Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -35,6 +36,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 33 | [搜索旋转排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No33) | 34 | [在排序数组中查找元素的第一个和最后一个](https://github.com/BUhdh951018/LeetCode/tree/master/src/No34) | 139 | [单词拆分](https://github.com/BUhdh951018/LeetCode/tree/master/src/No139) | 153 | [寻找旋转排序数组中的最小值](https://github.com/BUhdh951018/LeetCode/tree/master/src/No153) |
+  | 300 | [最长上升子序列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No300) |
 ### Stack
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -43,7 +45,7 @@
 ### Heap
 | Number | Answer |
   | :---: | :---: |
-  | 面试题 40 | [最小的k个数](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_40) |
+  | 面试题 40 | [最小的k个数](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_40) | 215 | [数组中的第K个最大元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/215) |
 ### Queue
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
