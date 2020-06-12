@@ -19,7 +19,7 @@
 ### Greed
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) | 409 | [最长回文串](https://github.com/BUhdh951018/LeetCode/tree/master/src/No409) |
+  | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) | 409 | [最长回文串](https://github.com/BUhdh951018/LeetCode/tree/master/src/No409) | 45 | [跳跃游戏Ⅱ](https://github.com/BUhdh951018/LeetCode/tree/master/src/No45) 
 ### Double Point
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -38,7 +38,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 33 | [搜索旋转排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No33) | 34 | [在排序数组中查找元素的第一个和最后一个](https://github.com/BUhdh951018/LeetCode/tree/master/src/No34) | 139 | [单词拆分](https://github.com/BUhdh951018/LeetCode/tree/master/src/No139) | 153 | [寻找旋转排序数组中的最小值](https://github.com/BUhdh951018/LeetCode/tree/master/src/No153) |
-  | 300 | [最长上升子序列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No300) | 852 | [山脉数组的峰顶索引](https://github.com/BUhdh951018/LeetCode/tree/master/src/No852) |
+  | 300 | [最长上升子序列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No300) | 852 | [山脉数组的峰顶索引](https://github.com/BUhdh951018/LeetCode/tree/master/src/No852) | 69 | [x的平方根](https://github.com/BUhdh951018/LeetCode/tree/master/src/No69) |
 ### Stack
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -66,3 +66,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 146 | [LRU缓存机制](https://github.com/BUhdh951018/LeetCode/tree/master/src/No146) | 355 | [设计推特](https://github.com/BUhdh951018/LeetCode/tree/master/src/No355) | 460 | [LFU缓存](https://github.com/BUhdh951018/LeetCode/tree/master/src/No460) |
+### Math
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 69 | [x的平方根](https://github.com/BUhdh951018/LeetCode/tree/master/src/No69) |
