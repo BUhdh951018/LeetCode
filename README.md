@@ -19,7 +19,7 @@
 ### Greed
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) | 409 | [最长回文串](https://github.com/BUhdh951018/LeetCode/tree/master/src/No409) |
+  | 55 | [跳跃游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No55) | 409 | [最长回文串](https://github.com/BUhdh951018/LeetCode/tree/master/src/No409) | 45 | [跳跃游戏Ⅱ](https://github.com/BUhdh951018/LeetCode/tree/master/src/No45) 
 ### Double Point
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -38,7 +38,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 33 | [搜索旋转排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No33) | 34 | [在排序数组中查找元素的第一个和最后一个](https://github.com/BUhdh951018/LeetCode/tree/master/src/No34) | 139 | [单词拆分](https://github.com/BUhdh951018/LeetCode/tree/master/src/No139) | 153 | [寻找旋转排序数组中的最小值](https://github.com/BUhdh951018/LeetCode/tree/master/src/No153) |
-  | 300 | [最长上升子序列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No300) | 852 | [山脉数组的峰顶索引](https://github.com/BUhdh951018/LeetCode/tree/master/src/No852) |
+  | 300 | [最长上升子序列](https://github.com/BUhdh951018/LeetCode/tree/master/src/No300) | 852 | [山脉数组的峰顶索引](https://github.com/BUhdh951018/LeetCode/tree/master/src/No852) | 69 | [x的平方根](https://github.com/BUhdh951018/LeetCode/tree/master/src/No69) |
 ### Stack
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -53,7 +53,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 101 |  [对称二叉树](https://github.com/BUhdh951018/LeetCode/tree/master/src/No101) | 102 |  [二叉树的层序遍历](https://github.com/BUhdh951018/LeetCode/tree/master/src/No102) | 151 | [翻转字符串里的单词](https://github.com/BUhdh951018/LeetCode/tree/master/src/No151) | 460 | [LFU缓存](https://github.com/BUhdh951018/LeetCode/tree/master/src/No460) |
-  | 912 | [排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No912) |
+  | 912 | [排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No912) | 448 | [找到所有数组中消失的数字](https://github.com/BUhdh951018/LeetCode/tree/master/src/No448) |
 ### Hash
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -66,3 +66,14 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 146 | [LRU缓存机制](https://github.com/BUhdh951018/LeetCode/tree/master/src/No146) | 355 | [设计推特](https://github.com/BUhdh951018/LeetCode/tree/master/src/No355) | 460 | [LFU缓存](https://github.com/BUhdh951018/LeetCode/tree/master/src/No460) |
+### Math
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 69 | [x的平方根](https://github.com/BUhdh951018/LeetCode/tree/master/src/No69) | 70 | [爬楼梯](https://github.com/BUhdh951018/LeetCode/tree/master/src/No70) | 75 | [颜色分类](https://github.com/BUhdh951018/LeetCode/tree/master/src/No75) | 96 | [不同的二叉搜索树](https://github.com/BUhdh951018/LeetCode/tree/master/src/No96) |
+  | 136 | [只出现一次的数字](https://github.com/BUhdh951018/LeetCode/tree/master/src/No136) | 287 | [寻找重复数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No287) | 466 | [统计重复个数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No466) | 914 | [卡牌分组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No914) |
+  | 999 | [可以被一步捕获的棋子数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No999) | 1248 | [统计优美子数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No1248) |
+### Basic
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | 4 | [寻找两个正序数组的中位数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No4) | 8 | [字符串转换整形](https://github.com/BUhdh951018/LeetCode/tree/master/src/No8) | 48 | [旋转图像](https://github.com/BUhdh951018/LeetCode/tree/master/src/No48) | 121 | [买卖股票的最佳时机](https://github.com/BUhdh951018/LeetCode/tree/master/src/No121) |
+  | 283 | [移动零](https://github.com/BUhdh951018/LeetCode/tree/master/src/No283) | 289 | [生命游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No289) | 892 | [三维形体的表面积](https://github.com/BUhdh951018/LeetCode/tree/master/src/No892) |
