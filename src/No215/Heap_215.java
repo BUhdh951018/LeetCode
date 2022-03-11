@@ -1,5 +1,6 @@
 package No215;
 
+import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -14,7 +15,6 @@ public class Heap_215 {
             }
 
         }
-
         return heap.poll();
     }
 }
