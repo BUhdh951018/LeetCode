@@ -47,7 +47,7 @@
 ### Heap
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 面试题 40 | [最小的k个数](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_40) | 215 | [数组中的第K个最大元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/215) | 347 | [前K个高频元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No347) | 460 | [LFU缓存](https://github.com/BUhdh951018/LeetCode/tree/master/src/No460) |
+  | 面试题 40 | [最小的k个数](https://github.com/BUhdh951018/LeetCode/tree/master/src/Interview_40) | 215 | [数组中的第K个最大元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No215) | 347 | [前K个高频元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No347) | 460 | [LFU缓存](https://github.com/BUhdh951018/LeetCode/tree/master/src/No460) |
   | 912 | [排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No912) |
 ### Queue
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
@@ -61,7 +61,7 @@
 ### Sort
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 56 | [合并区间](https://github.com/BUhdh951018/LeetCode/tree/master/src/No56) | 347 | [前K个高频元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No347) | 912 | [排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No912) |
+  | 56 | [合并区间](https://github.com/BUhdh951018/LeetCode/tree/master/src/No56) | 215 | [数组中的第K个最大元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No215) | 347 | [前K个高频元素](https://github.com/BUhdh951018/LeetCode/tree/master/src/No347) | 912 | [排序数组](https://github.com/BUhdh951018/LeetCode/tree/master/src/No912) |
 ### Application
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -75,7 +75,7 @@
 ### Basic
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 4 | [寻找两个正序数组的中位数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No4) | 8 | [字符串转换整形](https://github.com/BUhdh951018/LeetCode/tree/master/src/No8) | 48 | [旋转图像](https://github.com/BUhdh951018/LeetCode/tree/master/src/No48) | 121 | [买卖股票的最佳时机](https://github.com/BUhdh951018/LeetCode/tree/master/src/No121) |
+  | 4 | [寻找两个正序数组的中位数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No4) | 8 | [字符串转换整形](https://github.com/BUhdh951018/LeetCode/tree/master/src/No8) | 9 | [回文数](https://github.com/BUhdh951018/LeetCode/tree/master/src/No9) | 48 | [旋转图像](https://github.com/BUhdh951018/LeetCode/tree/master/src/No48) | 121 | [买卖股票的最佳时机](https://github.com/BUhdh951018/LeetCode/tree/master/src/No121) |
   | 283 | [移动零](https://github.com/BUhdh951018/LeetCode/tree/master/src/No283) | 289 | [生命游戏](https://github.com/BUhdh951018/LeetCode/tree/master/src/No289) | 892 | [三维形体的表面积](https://github.com/BUhdh951018/LeetCode/tree/master/src/No892) |
 
 ### 123
