@@ -5,41 +5,31 @@ import java.util.Stack;
 public class MinStack_155 {
     private Stack<Integer> data;
     private Stack<Integer> min;
+    private int mini;
 
     public MinStack_155() {
         data = new Stack<>();
         min = new Stack<>();
+        mini = Integer.MAX_VALUE;
     }
 
     public void push(int x) {
         data.add(x);
-        if (min.isEmpty() || min.peek() >= x) {
-            min.add(x);
-        } else {
-            min.add(min.peek());
-        }
+        mini = Math.min(mini, x);
+        min.add(mini);
     }
 
     public void pop() {
-        if (!data.isEmpty()) {
-            int top = data.pop();
-            if (top == min.peek()) {
-                min.pop();
-            }
-        }
+        data.pop();
+        min.pop();
+        mini = min.isEmpty() ? Integer.MAX_VALUE : min.peek();
     }
 
     public int top() {
-        if (!data.isEmpty()) {
-            return data.peek();
-        }
-        return 0;
+        return data.peek();
     }
 
     public int getMin() {
-        if (!min.isEmpty()) {
-            return min.peek();
-        }
-        return 0;
+        return min.peek();
     }
 }

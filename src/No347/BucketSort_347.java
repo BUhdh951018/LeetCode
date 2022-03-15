@@ -11,11 +11,7 @@ public class BucketSort_347 {
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int num: nums) {
-            if (map.containsKey(num)){
-                map.put(num, map.get(num) + 1);
-            } else {
-                map.put(num, 1);
-            }
+            map.merge(num, 1, Integer::sum);
         }
 
         List<Integer>[] list = new List[nums.length + 1];
