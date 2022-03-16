@@ -1,6 +1,8 @@
 package No234;
 
-public class Turn_234 {
+import structure.ListNode;
+
+public class TwoPoint_234 {
     public boolean isPalindrome(ListNode head) {
         ListNode fast = head, slow = head;
 

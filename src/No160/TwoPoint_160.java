@@ -1,5 +1,7 @@
 package No160;
 
+import structure.ListNode;
+
 public class TwoPoint_160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode pa = headA, pb = headB;

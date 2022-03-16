@@ -1,5 +1,7 @@
 package No206;
 
+import structure.ListNode;
+
 public class Recursion_206 {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null)

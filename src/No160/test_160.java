@@ -1,6 +1,6 @@
 package No160;
 
-import java.util.List;
+import structure.ListNode;
 
 public class test_160 {
     public static void main(String[] args) {
