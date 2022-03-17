@@ -1,5 +1,7 @@
 package No226;
 
+import structure.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 

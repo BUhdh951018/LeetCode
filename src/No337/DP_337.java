@@ -1,5 +1,7 @@
 package No337;
 
+import structure.TreeNode;
+
 public class DP_337 {
     public int rob(TreeNode root) {
         int[] result = dp(root);

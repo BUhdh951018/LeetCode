@@ -1,5 +1,7 @@
 package No617;
 
+import structure.TreeNode;
+
 public class Recursive_617 {
     public TreeNode mergeTree(TreeNode t1, TreeNode t2) {
         t1.val += t2.val;

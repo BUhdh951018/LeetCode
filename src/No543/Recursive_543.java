@@ -1,6 +1,8 @@
 package No543;
 
-public class dfs_543 {
+import structure.TreeNode;
+
+public class Recursive_543 {
     int ans;
     public int diameterOfBinaryTree(TreeNode root) {
         ans = 0;

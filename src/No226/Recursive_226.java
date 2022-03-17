@@ -1,15 +1,16 @@
 package No226;
 
+import structure.TreeNode;
+
 public class Recursive_226 {
     public TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
         }
 
-        TreeNode left = invertTree(root.left);
-        TreeNode right = invertTree(root.right);
-        root.left = right;
-        root.right = left;
+        TreeNode left = root.left;
+        root.left = invertTree(root.right);
+        root.right = invertTree(left);
         return root;
     }
 }

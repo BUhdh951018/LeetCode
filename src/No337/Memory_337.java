@@ -1,5 +1,7 @@
 package No337;
 
+import structure.TreeNode;
+
 import java.util.HashMap;
 
 public class Memory_337 {
