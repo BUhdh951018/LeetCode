@@ -7,7 +7,7 @@ public class test_64 {
                 {1, 5, 1},
                 {4, 2, 1}
         };
-        int ans = new Dynamic_64().minPathSum(grid);
+        int ans = new DP_64().minPathSum(grid);
         System.out.println(ans);
     }
 }
