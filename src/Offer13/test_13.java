@@ -1,4 +1,4 @@
-package Interview_13;
+package Offer13;
 
 public class test_13 {
     public static void main(String[] args) {

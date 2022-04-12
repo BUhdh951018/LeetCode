@@ -1,4 +1,4 @@
-package Interview_40;
+package Offer40;
 
 public class Divide_40 {
     public int partition(int[] a, int lo, int hi) {

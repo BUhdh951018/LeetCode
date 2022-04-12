@@ -1,4 +1,6 @@
-package LeetCode.No31;
+package No31;
+
+import No31.solution_31;
 
 public class test_31 {
     public static void main(String[] args) {

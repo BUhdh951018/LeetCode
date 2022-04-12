@@ -1,4 +1,4 @@
-package LeetCode.No31;
+package No31;
 
 public class solution_31 {
     public void nextPermutation(int[] nums) {

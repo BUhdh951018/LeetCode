@@ -1,4 +1,4 @@
-package Interview_62;
+package Offer62;
 
 public class Recursive_62 {
     public int lastRemaining(int n, int m) {
