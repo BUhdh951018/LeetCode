@@ -14,6 +14,6 @@ public class test_139 {
         dict.add("and");
         dict.add("dog");
         System.out.println(new memory_139().wordBreak(s, dict));
-        System.out.println(new BFS_139().wordBreak(s1, dict));
+        System.out.println(new DP_139().wordBreak(s1, dict));
     }
 }

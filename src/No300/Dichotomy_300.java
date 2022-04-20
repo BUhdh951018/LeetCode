@@ -21,7 +21,7 @@ public class Dichotomy_300 {
             dp[dp_point] = num;
             if (ans == num_point)
                 ans++;
-            System.out.println(Arrays.toString(dp));
+            //System.out.println(Arrays.toString(dp));
         }
 
         return ans;
