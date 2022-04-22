@@ -9,10 +9,12 @@
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 56 | [合并区间][56]| 215 | [数组中的第K个最大元素][215]| 347 | [前K个高频元素][347]| 451 | [根据字符出现频率排序][451] |
   | 912 | [排序数组][912] |
-### Greed
+### Greedy
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 45 | [跳跃游戏Ⅱ][45]| 55 | [跳跃游戏][55]| 409 | [最长回文串][409] |
+  | 45 | [跳跃游戏Ⅱ][45]| 55 | [跳跃游戏][55]| 409 | [最长回文串][409]| 455 | [分发饼干][455]|
+  | 435 | [无重叠区间][435]| 452 | [用最少数量的箭引爆气球][452]| 406 | [根据身高重建队列][406]| 121 |[买卖股票的最佳时机][121]|
+  | 122 |[买卖股票的最佳时机II][122]|
 ### Binary Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -36,19 +38,38 @@
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | Offer 13 | [机器人的运动范围][o13]| 200 | [岛屿数量][200] |
 ### Dynamic Programming
-| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+* 字符串&字串
+
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+* 0-1 背包
+
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+* 路径问题
+
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  | 62 | [不同路径][62] | 63 | [不同路径 II][63] |
+* 股票交易
+
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  | 121 |[买卖股票的最佳时机][121]| 122 |[买卖股票的最佳时机II][122]| 123 |[买卖股票的最佳时机III][123]|
+  | 188 |[买卖股票的最佳时机IV][188]| 309 |[最佳买卖股票时机含冷冻期][309]| 714 |[买卖股票的最佳时机含手续费][714]|
+
+  | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 面试题 08.11 | [硬币][i0811] | 32 | [最长有效括号][32]| 42 | [接雨水][42] | 55 | [跳跃游戏][55] |
   | 64 | [最小路径和][64]| 72 | [编辑距离][72] | 152 | [乘积最大子数组][152] | 198 | [打家劫舍][198] |
   | 221 | [最大正方形][221] | 279 | [完全平方数][279] | 300 | [最长上升子序列][300] | 337 | [打家劫舍Ⅲ][337] |
   | 542 | [01 矩阵][542] | 647 | [回文子串][647] | 118 | [杨辉三角][118] | 119 | [杨辉三角 II][119] |
-  | 121 |[买卖股票的最佳时机][121]| 122 |[买卖股票的最佳时机II][122]| 123 |[买卖股票的最佳时机III][123]| 188 |[买卖股票的最佳时机IV][188]|
-  | 309 | [最佳买卖股票时机含冷冻期][309] | 714 | [买卖股票的最佳时机含手续费][714] | 494 | [目标和][494] | 474 | [一和零][474] |
+  |494 | [目标和][494] | 474 | [一和零][474] |
   | 139 | [单词拆分][139] | 646 | [最长数对链][646] | 376 | [摆动序列][376] | 416 | [分割等和子集][416] |
   | 1143 | [最长公共子序列][1143] | 213 | [打家劫舍II][213] | 518 | [零钱兑换II][518] | 343 | [整数拆分][343] |
   | 322 | [零钱兑换][322] | 377 | [组合总和IV][377] | 303 | [区域和检索- 数组不可变][303] | 583 | [两个字符串的删除操作][583] |
-  | 650 | [只有两个键的键盘][650] | 413 | [等差数列划分][413] | 53 | [最大子数组和][53] | 62 | [不同路径][62] |
-  | 63 | [不同路径 II][63] | 91 | [解码方法][91] |
+  | 650 | [只有两个键的键盘][650] | 413 | [等差数列划分][413] | 53 | [最大子数组和][53] 
+   91 | [解码方法][91] |
 ### Math
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -125,7 +146,6 @@
 ### Basic
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-
   | 283 | [移动零][283] | 289 | [生命游戏][289] 
 
 
@@ -244,13 +264,17 @@
 [376]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No376
 [377]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No377
 [404]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No404
+[406]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No406
 [409]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No409
 [413]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No413
 [416]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No416
+[435]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No435
 [437]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No437
 [445]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No445
 [448]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No448
 [451]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No451
+[452]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No452
+[455]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No455
 [460]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No460
 [461]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No461
 [466]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No466
