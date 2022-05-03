@@ -11,14 +11,12 @@ import java.util.List;
  */
 public class Greedy_406_1 {
     public int[][] reconstructQueue(int[][] people) {
-        if (people == null || people.length == 0 || people[0].length == 0) {
-            return new int[0][0];
+        Arrays.sort(people, (o1, o2) -> (o1[0] != o2[0]) ? (o2[0] - o1[0]) : (o1[1] - o2[1]));
+        List<int[]> list = new ArrayList<>();
+        for (int[] temp : people) {
+            list.add(temp[1], temp);
         }
-        Arrays.sort(people, (a, b) -> (a[0] == b[0] ? a[1] - b[1] : b[0] - a[0]));
-        List<int[]> queue = new ArrayList<>();
-        for (int[] p : people) {
-            queue.add(p[1], p);
-        }
-        return queue.toArray(new int[queue.size()][]);
+
+        return list.toArray(new int[][]{});
     }
 }

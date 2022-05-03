@@ -14,7 +14,8 @@
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 45 | [跳跃游戏Ⅱ][45]| 55 | [跳跃游戏][55]| 409 | [最长回文串][409]| 455 | [分发饼干][455]|
   | 435 | [无重叠区间][435]| 452 | [用最少数量的箭引爆气球][452]| 406 | [根据身高重建队列][406]| 121 |[买卖股票的最佳时机][121]|
-  | 122 |[买卖股票的最佳时机II][122]|
+  | 122 |[买卖股票的最佳时机II][122]| 605 |[种花问题][605]| 392 |[判断子序列][392]| 665 |[非递减数列][665]|
+  | 53 | [最大子数组和][53]|
 ### Binary Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -44,6 +45,8 @@
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 70 | [爬楼梯][70] | 198 | [打家劫舍][198] | 213 | [打家劫舍II][213] |
   | 337 | [打家劫舍Ⅲ][337] | 118 | [杨辉三角][118] | 119 | [杨辉三角 II][119] |
+  | 509 | [斐波那契数][509] | 1137 | [第 N 个泰波那契数][1137] | 746 | [使用最小花费爬楼梯][746] |
+  | 740 | [删除并获得点数][740] |
 * 字符串&字串
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -284,6 +287,7 @@
 [371]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No371
 [376]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No376
 [377]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No377
+[392]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No392
 [404]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No404
 [406]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No406
 [409]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No409
@@ -304,6 +308,7 @@
 [494]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No494
 [501]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No501
 [503]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No503
+[509]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No509
 [513]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No513
 [518]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No518
 [530]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No530
@@ -313,12 +318,14 @@
 [572]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No572
 [583]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No583
 [594]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No594
+[605]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No605
 [617]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No617
 [637]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No637
 [646]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No646
 [647]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No647
 [650]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No650
 [653]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No653
+[665]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No665
 [669]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No669
 [671]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No671
 [677]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No677
@@ -329,6 +336,8 @@
 [714]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No714
 [725]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No725
 [739]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No739
+[740]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No740
+[746]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No746
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
 [876]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No876
 [892]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No892
@@ -336,6 +345,7 @@
 [914]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No914
 [999]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No999
 [1111]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1111
+[1137]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1137
 [1143]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1143
 [1248]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1248
 [o9]: https://github.com/BUhdh951018/LeetCode/tree/master/src/Offer9
