@@ -4,6 +4,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   |11|[盛最多水的容器][11]|42|[接雨水][42]|876|[链表的中间结点][876]|31|[下一个排列][31]|
+  |27|[移除元素][27]|
 ### Sort
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -46,7 +47,7 @@
   | 70 | [爬楼梯][70] | 198 | [打家劫舍][198] | 213 | [打家劫舍II][213] |
   | 337 | [打家劫舍Ⅲ][337] | 118 | [杨辉三角][118] | 119 | [杨辉三角 II][119] |
   | 509 | [斐波那契数][509] | 1137 | [第 N 个泰波那契数][1137] | 746 | [使用最小花费爬楼梯][746] |
-  | 740 | [删除并获得点数][740] |
+  | 740 | [删除并获得点数][740] | 120 | [三角形最小路径和][120] |
 * 字符串&字串
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -122,7 +123,8 @@
 |437|[路径总和III][437]|501|[二叉搜索树中的众数][501]|513|[找树左下角的值][513]|530|[二叉搜索树的最小绝对差][530]
 |538|[把二叉搜索树转换为累加树][538]|543|[二叉树的直径][543]|572|[另一棵树的子树][572]|617|[合并二叉树][617]|
 |637|[二叉树的层平均值][637]|653|[两数之和IV-输入BST][653]|669|[修剪二叉搜索树][669]|671|[二叉树中第二小的节点][671]|
-|677|[键值映射][677]|687|[最长同值路径][687]|114|[二叉树展开为链表][114]| 98 |  [验证二叉搜索树][98]
+|677|[键值映射][677]|687|[最长同值路径][687]|114|[二叉树展开为链表][114]| 98 |  [验证二叉搜索树][98]|
+
 ### Stack
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -188,6 +190,7 @@
 [22]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No22
 [24]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No24
 [25]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No25
+[27]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No27
 [31]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No31
 [32]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No32
 [33]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No33
@@ -227,6 +230,7 @@
 [114]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No114
 [118]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No118
 [119]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No119
+[120]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No120
 [121]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No121
 [122]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No122
 [123]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No123

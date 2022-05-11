@@ -24,6 +24,6 @@ public class DP_1143 {
                     dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
             }
         System.out.println(Arrays.toString(dp[3]));
-        return dp[m - 1][n - 1];
+        return dp[m][n];
     }
 }
