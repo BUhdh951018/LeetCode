@@ -3,7 +3,7 @@
 ### Double Point
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  |11|[盛最多水的容器][11]|42|[接雨水][42]|876|[链表的中间结点][876]|31|[下一个排列][31]|
+  |11✅|[盛最多水的容器][11]|42|[接雨水][42]|876|[链表的中间结点][876]|31|[下一个排列][31]|
   |27|[移除元素][27]|26|[删除有序数组中的重复项][26]|167|[两数之和 II - 输入有序数组][167]|633|[平方数之和][633]|
   |345|[反转字符串中的元音字母][345]|680|[验证回文字符串 Ⅱ][680]|88|[合并两个有序数组][88]|524|[通过删除字母匹配到字典里最长单词][524]|
 ### Sort
@@ -22,7 +22,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   |33|[搜索旋转排序数组][33]|34|[在排序数组中查找元素的第一个和最后一个][34]| 69 | [x的平方根][69]|153|[寻找旋转排序数组中的最小值][153]|
-  |300|[最长上升子序列][300]|852|[山脉数组的峰顶索引][852]| 4 | [寻找两个正序数组的中位数][4] |
+  |300|[最长上升子序列][300]|852|[山脉数组的峰顶索引][852]| 4 | [寻找两个正序数组的中位数][4] | 744 | [寻找比目标字母大的最小字母][744] |
 ### 分治 
 
 ### Searching
@@ -351,6 +351,7 @@
 [725]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No725
 [739]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No739
 [740]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No740
+[744]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No744
 [746]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No746
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
 [876]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No876
