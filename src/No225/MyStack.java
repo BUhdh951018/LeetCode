@@ -20,6 +20,7 @@ public class MyStack {
     public void push(int x) {
         queue.add(x);
         int temp = queue.size();
+        System.out.println(temp);
         while (temp-- > 1) {
             queue.add(queue.poll());
         }

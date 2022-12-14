@@ -3,9 +3,10 @@
 ### Double Point
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  |11✅|[盛最多水的容器][11]|42|[接雨水][42]|876|[链表的中间结点][876]|31|[下一个排列][31]|
+  |11 ✅|[盛最多水的容器][11]|42|[接雨水][42]|876|[链表的中间结点][876]|31|[下一个排列][31]|
   |27|[移除元素][27]|26|[删除有序数组中的重复项][26]|167|[两数之和 II - 输入有序数组][167]|633|[平方数之和][633]|
   |345|[反转字符串中的元音字母][345]|680|[验证回文字符串 Ⅱ][680]|88|[合并两个有序数组][88]|524|[通过删除字母匹配到字典里最长单词][524]|
+  |287|[寻找重复数][287]|
 ### Sort
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -101,9 +102,9 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 69 | [x的平方根][69]| 75 | [颜色分类][75] | 96 | [不同的二叉搜索树][96] | 892 | [三维形体的表面积][892] |
-  | 136 | [只出现一次的数字][136]| 287 | [寻找重复数][287] | 466 | [统计重复个数][466]| 914 | [卡牌分组][914] |
+  | 136 | [只出现一次的数字][136]| Offer 62 | [圆圈中最后剩下的数字][o62]| 466 | [统计重复个数][466]| 914 | [卡牌分组][914] |
   | 999 | [可以被一步捕获的棋子数][999]| 1248 | [统计优美子数组][1248] | 48 | [旋转图像][48] | 50 | [Pow(x, n)][50] |
-  | 9 | [回文数][9] | Offer 62 | [圆圈中最后剩下的数字][o62] |
+  | 9 | [回文数][9] |
 
 ## Structure
 ### LinkedList
@@ -155,7 +156,11 @@
   | 14 | [最长公共前缀][14] | 205 | [同构字符串][205] | 242 | [有效的字母异位词][242] | 696 | [计数二进制子串][696] |
   | 8 | [字符串转换整形][8] |
 ### Array & Matrix
-
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  |283|[移动零][283]|566|[重塑矩阵][566]|485|[最大连续 1 的个数][485]|240|[搜索二维矩阵 II][240]|
+  |378|[有序矩阵中第 K 小的元素][378]|287|[寻找重复数][287]|667|[优美的排列 II][667]|697|[数组的度][697]|
+  |766|[托普利茨矩阵][766]|565|[数组嵌套][565]|769|[最多能完成排序的块][769]|
 ### Graph
 
 ### Bit
@@ -275,6 +280,7 @@
 [234]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No234
 [235]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No235
 [236]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No236
+[240]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No240
 [242]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No242
 [260]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No260
 [268]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No268
@@ -298,6 +304,7 @@
 [371]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No371
 [376]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No376
 [377]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No377
+[378]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No378
 [392]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No392
 [404]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No404
 [406]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No406
@@ -316,6 +323,7 @@
 [466]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No466
 [474]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No474
 [476]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No476
+[485]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No485
 [494]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No494
 [501]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No501
 [503]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No503
@@ -327,6 +335,8 @@
 [538]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No538
 [542]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No542
 [543]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No543
+[565]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No565
+[566]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No566
 [572]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No572
 [583]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No583
 [594]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No594
@@ -339,6 +349,7 @@
 [650]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No650
 [653]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No653
 [665]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No665
+[667]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No667
 [669]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No669
 [671]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No671
 [677]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No677
@@ -347,12 +358,15 @@
 [693]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No693
 [695]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No695
 [696]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No696
+[697]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No697
 [714]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No714
 [725]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No725
 [739]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No739
 [740]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No740
 [744]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No744
 [746]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No746
+[766]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No766
+[769]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No769
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
 [876]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No876
 [892]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No892
