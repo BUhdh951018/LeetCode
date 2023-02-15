@@ -27,7 +27,7 @@ public class solution_17 {
             String number = digit.substring(0, 1);
             String letterS = collection.get(number);
             for (int i = 0; i < letterS.length(); i++) {
-                String letter = collection.get(number).substring(i, i+1);
+                String letter = letterS.substring(i, i+1);
                 backtrack(ans + letter, digit.substring(1));
             }
         }
