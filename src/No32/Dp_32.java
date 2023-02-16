@@ -3,7 +3,7 @@ package No32;
 public class Dp_32 {
     public int longestValidParentheses(String s) {
         int ans = 0;
-        int dp[] = new int [s.length()];
+        int[] dp = new int [s.length()];
 
         for (int i = 1; i < s.length(); i++) {
             if (s.charAt(i) == ')') {

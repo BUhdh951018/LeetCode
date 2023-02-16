@@ -30,7 +30,7 @@ public class DP_5 {
                 if (charArray[i] != charArray[j]) {
                     dp[i][j] = false;
                 } else {
-                    if (j - i < 2) {
+                    if (L == 2) {
                         dp[i][j] = true;
                     } else {
                         dp[i][j] = dp[i + 1][j - 1];

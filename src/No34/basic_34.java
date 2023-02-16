@@ -1,6 +1,6 @@
 package No34;
 
-public class solution_34 {
+public class basic_34 {
     public int[] searchRange(int[] nums, int target) {
         int[] targetRange = {-1, -1};
 

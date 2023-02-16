@@ -3,7 +3,7 @@ package No22;
 import java.util.ArrayList;
 import java.util.List;
 
-public class solution_22 {
+public class backtrack_22 {
     public static List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList();
         backtrack(result, "", 0, 0, n);
@@ -11,7 +11,6 @@ public class solution_22 {
     }
 
     public static void backtrack(List<String> result, String temp, int start, int end, int max) {
-        //System.out.println(temp);
         if (temp.length() == max * 2) {
             result.add(temp);
             return;

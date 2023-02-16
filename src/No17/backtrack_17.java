@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class solution_17 {
+public class backtrack_17 {
     HashMap<String, String> collection = new HashMap<String, String>() {{
         put("2", "abc");
         put("3", "def");
