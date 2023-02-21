@@ -5,7 +5,7 @@ import structure.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class interation_101 {
+public class Iteration_101 {
     public boolean isSymmetric(TreeNode root){
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);

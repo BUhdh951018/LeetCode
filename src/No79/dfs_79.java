@@ -3,7 +3,7 @@ package No79;
 public class dfs_79 {
     int m, n;
     private boolean[][] marked;
-    private int[][] direction = {{0, -1}, {0, 1}, {1, 0}, {-1, 0}};
+    private final int[][] direction = {{0, -1}, {0, 1}, {1, 0}, {-1, 0}};
     public boolean exist(char[][] board, String word) {
         m = board.length;
         n = board[0].length;
@@ -43,6 +43,6 @@ public class dfs_79 {
     }
 
     private boolean inArea(int x, int y) {
-        return x >= 0 && x < m && y >=0 && y < n;
+        return x >= 0 && x < m && y >= 0 && y < n;
     }
 }

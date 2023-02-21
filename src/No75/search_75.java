@@ -4,10 +4,10 @@ public class search_75 {
     public void sortColors(int[] nums) {
         int len = nums.length;
         int red = 0, white = 0, blue = 0;
-        for(int i = 0; i < len; i++) {
-            if (nums[i] == 0){
+        for (int num : nums) {
+            if (num == 0) {
                 red++;
-            } else if (nums[i] == 1) {
+            } else if (num == 1) {
                 white++;
             } else {
                 blue++;

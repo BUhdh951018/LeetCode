@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class solution_46 {
+public class backtrack_46 {
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList();
 

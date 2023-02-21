@@ -7,23 +7,9 @@ import java.util.List;
 
 public class sort_56 {
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals,new Comparator<int[]>() {
-            @Override
-            public int compare(int[] x, int[] y) {
-                if(x[0] < y[0]){
-                    return -1;
-                } else if(x[0] > y[0]){
-                    return 1;
-                } else {
-                    return 0;
-                }
-            }
-        });
 
-        for (int i = 0; i < intervals.length; i++) {
-            for (int j = 0; j < 2; j++)
-                System.out.println(intervals[i][j]);
-        }
+        // 数组首位排序
+        Arrays.sort(intervals, (v1, v2) -> v1[0] - v2[0]);
 
         int[] curr_interval = intervals[0];
         List<int[]> list = new ArrayList<>();
@@ -40,7 +26,6 @@ public class sort_56 {
             } else {
                 curr_interval = interval;
                 list.add(curr_interval);
-                System.out.println(list);
             }
         }
 

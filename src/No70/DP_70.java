@@ -9,13 +9,15 @@ import java.util.Arrays;
  */
 public class DP_70 {
     public int climbStairs(int n) {
-        int[] r = new int[n];
-        r[0] = 1;
-        r[1] = 2;
+        int[] dp = new int[n];
+        dp[0] = 1;
+        if (n < 2)
+            return dp[n - 1];
+        dp[1] = 2;
         for (int i = 2; i < n; i++) {
-            r[i] = r[i - 1] + r[i - 2];
+            dp[i] = dp[i - 1] + dp[i - 2];
         }
-        System.out.println(Arrays.toString(r));
-        return r[n - 1];
+
+        return dp[n - 1];
     }
 }
