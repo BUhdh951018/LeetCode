@@ -1,11 +1,11 @@
 package No114;
 
+import structure.TreeNode;
+
 public class move_114 {
     public void flatten(TreeNode root) {
         while (root != null) {
-            if (root.left == null) {
-                root = root.right;
-            } else {
+            if (root.left != null) {
                 TreeNode pre = root.left;
                 while (pre.right != null) {
                     pre = pre.right;
@@ -14,8 +14,8 @@ public class move_114 {
 
                 root.right = root.left;
                 root.left = null;
-                root = root.right;
             }
+            root = root.right;
 
 
         }

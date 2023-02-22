@@ -1,34 +1,33 @@
 package No114;
 
+import structure.TreeNode;
+
 import java.util.LinkedList;
 import java.util.List;
 
 public class preorder_114 {
+    // LinkedList removeFirst方法
     public void flatten(TreeNode root) {
-        if (root == null) {
+        if (root == null)
             return;
-        }
         LinkedList<TreeNode> list = new LinkedList<>();
+        dfs(list, root);
+        list.removeFirst();
 
-        dfs(root, list);
-        TreeNode head = list.removeFirst();
-        head.left = null;
-
-        while (list.size() > 0) {
-            TreeNode temp = list.removeFirst();
-            temp.left = null;
-            head.right = temp;
-            head = head.right;
+        while (!list.isEmpty()) {
+            root.left = null;
+            root.right = list.removeFirst();
+            root = root.right;
         }
     }
 
-    private void dfs(TreeNode root, LinkedList<TreeNode> list) {
+    private void dfs(LinkedList<TreeNode> list, TreeNode root) {
         if (root == null) {
             return;
         }
 
         list.add(root);
-        dfs(root.left, list);
-        dfs(root.right,list);
+        dfs(list, root.left);
+        dfs(list, root.right);
     }
 }

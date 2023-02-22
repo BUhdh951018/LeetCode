@@ -22,7 +22,6 @@ public class DP_139 {
                 }
             }
         }
-        System.out.println(Arrays.toString(dp));
         return dp[s.length()];
     }
 }
