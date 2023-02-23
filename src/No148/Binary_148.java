@@ -1,6 +1,8 @@
 package No148;
 
-public class two_148 {
+import structure.ListNode;
+
+public class Binary_148 {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;

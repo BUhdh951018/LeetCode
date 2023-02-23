@@ -3,16 +3,13 @@ package No169;
 public class BoyerMoore_169 {
     public int majorityElement(int[] nums) {
         int count = 0;
-        Integer candidate = null;
-
-        for (int num: nums) {
-            if (count == 0) {
-                candidate = num;
-            }
-
-            count += (num == candidate) ? 1 : -1;
+        int can = nums[0];
+        for (int num : nums) {
+            if (count == 0)
+                can = num;
+            count += can == num ? 1 : -1;
         }
 
-        return candidate;
+        return can;
     }
 }

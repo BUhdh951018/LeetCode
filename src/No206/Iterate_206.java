@@ -25,8 +25,7 @@ public class Iterate_206 {
             head.next = node.next;
             node.next = head;
             head = next;
-        }
-        List<Integer> list = new ArrayList<>();
+        };
         return node.next;
     }
 }
