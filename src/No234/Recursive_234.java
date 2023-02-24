@@ -10,7 +10,6 @@ import structure.ListNode;
  * Description:
  */
 public class Recursive_234 {
-    // todo
     private ListNode frontPointer;
 
     private boolean recursivelyCheck(ListNode currentNode) {
@@ -24,14 +23,6 @@ public class Recursive_234 {
         return true;
     }
     public boolean isPalindrome(ListNode head) {
-//        StringBuilder temp = new StringBuilder();
-//        String node = "";
-//        while (head != null) {
-//            node = "" + head.val;
-//            head = head.next;
-//        }
-//        temp.append(node);
-//        return temp.toString().equals(temp.reverse().toString());
 
         frontPointer = head;
         return recursivelyCheck(head);

@@ -5,8 +5,7 @@ public class Exchange_283 {
         int zero = 0;
         for (int cur = 0; cur < nums.length; cur++) {
             if (nums[cur] != 0) {
-                swap(nums, zero, cur);
-                zero++;
+                swap(nums, zero++, cur);
             }
         }
     }

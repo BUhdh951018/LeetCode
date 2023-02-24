@@ -8,6 +8,7 @@ import java.util.Arrays;
  * Description:
  */
 public class DP_300_1 {
+    //time: O(n^2)
     public int lengthOfLIS(int[] nums) {
         int len = nums.length;
         int[] dp = new int[len];

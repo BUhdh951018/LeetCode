@@ -9,7 +9,7 @@ import java.util.Random;
  * Assignment
  * Description:
  */
-public class QuickSort {
+public class QuickSort_215 {
     Random random = new Random();
 
     public int findKthLargest(int[] nums, int k) {
