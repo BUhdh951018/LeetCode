@@ -11,22 +11,23 @@ public class DP_494 {
         for (int num : nums)
             sum += num;
         /*
+            p 是添加+的元素，n 是添加-的元素
             sum(P) - sum(N) = target
-            -sum(P) - sum(N) + sum(P) - sum(N) = target - sum(nums)
+            (sum - sumN) - sumN = target
             sum(N) = (sum - target) / 2
-            target 可能小于0，不能使用正数组合
+            sunN为非负整数，所以sum-target必为非负偶数
         */
         if (sum < target || (sum - target) % 2 == 1)
             return 0;
-        target = (sum - target) / 2;
+        int sumN = (sum - target) / 2;
 
-        int[] dp = new int[target + 1];
+        int[] dp = new int[sumN + 1];
         dp[0] = 1;
         for (int num : nums) {
-            for (int i = target; i >= num; i--) {
+            for (int i = sumN; i >= num; i--) {
                 dp[i] = dp[i] + dp[i - num];
             }
         }
-        return dp[target];
+        return dp[sumN];
     }
 }

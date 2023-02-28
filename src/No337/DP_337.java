@@ -17,7 +17,7 @@ public class DP_337 {
         int[] left = dp(root.left);
         int[] right = dp(root.right);
 
-        result[0] = Math.max(left[0], left[1]) +Math.max(right[0], right[1]);
+        result[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
         result[1] = left[0] + right[0] + root.val;
 
         return result;

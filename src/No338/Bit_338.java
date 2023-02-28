@@ -7,6 +7,7 @@ package No338;
  */
 public class Bit_338 {
     public int[] countBits(int n) {
+
         int[] dp = new int[n + 1];
         int temp = 0;
         for (int i = 1; i <= n; i++) {

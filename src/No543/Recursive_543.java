@@ -13,9 +13,9 @@ public class Recursive_543 {
     private int dfs(TreeNode root) {
         if (root == null)
             return 0;
-        int l = dfs(root.left);
-        int r = dfs(root.right);
-        ans = Math.max(ans, l+r);
-        return Math.max(l, r) + 1;
+        int l = dfs(root.left); //左子树深度
+        int r = dfs(root.right);//右子树深度
+        ans = Math.max(ans, l+r);//当前最大宽度
+        return Math.max(l, r) + 1;//结点最大深度
     }
 }

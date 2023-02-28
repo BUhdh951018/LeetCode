@@ -3,7 +3,7 @@ package No347;
 import java.util.*;
 
 public class Heap_347 {
-    public List<Integer> topKFrequent(int[] nums, int k) {
+    public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int num: nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
@@ -18,12 +18,13 @@ public class Heap_347 {
                 heap.poll();
         }
 
-        List<Integer> ans = new LinkedList<>();
+        int[] ans = new int[k];
+        int i = 0;
 
         while (!heap.isEmpty()) {
-            ans.add(heap.poll());
+            ans[i] = heap.poll();
+            i++;
         }
-        Collections.reverse(ans);
 
         return ans;
     }
