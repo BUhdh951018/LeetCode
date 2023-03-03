@@ -6,6 +6,7 @@ import java.util.Stack;
 
 public class Iteration_617 {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
+
         if (t1 == null) {
             return t2;
         }

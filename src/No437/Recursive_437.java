@@ -16,20 +16,21 @@ public class Recursive_437 {
         }
 
         int ans = 0;
-        ans = pathFromRoot(root, targetSum)
+        ans = pathFromRoot(root, (long)targetSum)
                 + pathSum(root.left, targetSum)
                 + pathSum(root.right, targetSum);
         return ans;
     }
 
-    private int pathFromRoot(TreeNode root, int targetSum) {
+    private int pathFromRoot(TreeNode root, long targetSum) {
         if (root == null)
             return 0;
         int ans = 0;
-        if (root.val == targetSum)
+        long value = root.val;
+        if (value == targetSum)
             ans++;
-        ans += pathFromRoot(root.left, targetSum - root.val)
-                + pathFromRoot(root.right, targetSum - root.val);
+        ans += pathFromRoot(root.left, targetSum - value)
+                + pathFromRoot(root.right, targetSum - value);
         return ans;
     }
 }

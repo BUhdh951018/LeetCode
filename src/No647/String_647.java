@@ -9,6 +9,7 @@ public class String_647 {
     private int cnt = 0;
 
     public int countSubstrings(String s) {
+
         for (int i = 0; i < s.length(); i++) {
             extendSubstrings(s, i, i);
             extendSubstrings(s, i ,i+1);

@@ -11,7 +11,10 @@ import java.util.List;
  */
 public class Greedy_406_1 {
     public int[][] reconstructQueue(int[][] people) {
+        //身高降序，人数升序
         Arrays.sort(people, (o1, o2) -> (o1[0] != o2[0]) ? (o2[0] - o1[0]) : (o1[1] - o2[1]));
+//        for (int[] temp : people)
+//            System.out.println(Arrays.toString(temp));
         List<int[]> list = new ArrayList<>();
         for (int[] temp : people) {
             list.add(temp[1], temp);

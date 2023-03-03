@@ -2,6 +2,7 @@ package No647;
 
 public class Dp_647 {
     public int countSubstrings(String s) {
+
         int ans = 0;
         boolean dp[][] = new boolean[s.length()][s.length()];
 

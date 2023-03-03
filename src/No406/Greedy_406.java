@@ -10,6 +10,7 @@ import java.util.Comparator;
  */
 public class Greedy_406 {
     public int[][] reconstructQueue(int[][] people) {
+
         Arrays.sort(people, Comparator.comparingInt(o -> o[1]));
         int len = people.length;
         for (int i = 1; i < len; i++) {

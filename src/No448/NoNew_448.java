@@ -6,22 +6,19 @@ import java.util.List;
 
 public class NoNew_448 {
     public List<Integer> findDisappearedNumbers(int[] nums) {
-        Arrays.sort(nums);
-
-        List<Integer> ans = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++) {
-            int temp = Math.abs(nums[i]) - 1;
-
-            if (nums[temp] > 0) {
-                nums[temp] *= -1;
-            }
+        int n = nums.length;
+        for (int num : nums) {
+            int temp = (num - 1) % n;
+            nums[temp] += n;
         }
 
-        for (int j = 1; j <= nums.length; j++) {
-            if (nums[j - 1] > 0)
-                ans.add(j);
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 0 ;i < n; i++) {
+            if (nums[i] <= n)
+                list.add(i + 1);
         }
 
-        return ans;
+        return list;
     }
 }

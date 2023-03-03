@@ -9,28 +9,25 @@ import java.util.Arrays;
  */
 public class DP_416 {
     public boolean canPartition(int[] nums) {
+
         int n = nums.length;
-        if (n < 2)
-            return false;
         int sum = 0;
         for (int num : nums)
             sum += num;
-        if (sum % 2 != 0)
-            return false;
         Arrays.sort(nums);
-        sum = sum / 2;
-        if (nums[n - 1] > sum)
+        int target = sum / 2;
+        if (sum % 2 != 0 || nums[n - 1] > target)
             return false;
-        boolean[] dp = new boolean[sum + 1];
+
+        boolean[] dp = new boolean[target + 1];
+
         dp[0] = true;
+
         for (int num : nums) {
-            for (int i = sum; i >= 1; i--) {
-                if (i >= num)
-                    dp[i] = dp[i] || dp[i - num];
+            for (int i = target; i >= num; i--) {
+                dp[i] = dp[i] || dp[i - num];
             }
         }
-
-
-        return dp[sum];
+        return dp[target];
     }
 }
