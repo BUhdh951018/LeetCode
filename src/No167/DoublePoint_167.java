@@ -7,6 +7,7 @@ package No167;
  */
 public class DoublePoint_167 {
     public int[] twoSum(int[] numbers, int target) {
+
         int first = 0, second = numbers.length - 1;
 
         for (int i = numbers.length - 1; i >= 1; i--) {

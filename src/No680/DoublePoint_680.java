@@ -7,6 +7,7 @@ package No680;
  */
 public class DoublePoint_680 {
     public boolean validPalindrome(String s) {
+
         int first = 0, second = s.length() - 1;
         while (first < second) {
             if (s.charAt(first) != s.charAt(second)) {

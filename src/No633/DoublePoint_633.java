@@ -7,6 +7,7 @@ package No633;
  */
 public class DoublePoint_633 {
     public boolean judgeSquareSum(int c) {
+
         long first = 0;
         long second = (long) Math.sqrt(c);
         while (first <= second) {

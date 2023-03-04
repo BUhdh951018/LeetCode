@@ -7,6 +7,7 @@ package No88;
  */
 public class DoublePoint_88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+
         int first = m + n - 1, second = n - 1;
 
         while (second >= 0) {
