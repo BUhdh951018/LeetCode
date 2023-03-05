@@ -7,6 +7,7 @@ package No474;
  */
 public class DP_474 {
     public int findMaxForm(String[] strs, int m, int n) {
+
         if (strs == null || strs.length == 0)
             return 0;
 
