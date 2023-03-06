@@ -1,5 +1,7 @@
 package No876;
 
+import structure.ListNode;
+
 public class Count_876 {
     public ListNode middleNode(ListNode head) {
         int len = 0;

@@ -29,9 +29,6 @@ public class List_2 {
         if (carry == 1)
             temp.next = new ListNode(carry);
 
-        String s = "";
-        char[] c = s.toCharArray();
-
         return result.next;
     }
 }

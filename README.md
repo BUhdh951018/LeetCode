@@ -108,10 +108,10 @@
 ### LinkedList
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  |19&nbsp;✅|[删除链表的倒数第 N 个结点][19]|21&nbsp;✅|[合并两个有序链表][21]|24|[两两交换链表中的节点][24]|83|[删除排序链表中的重复元素][83]|
-  |160&nbsp;✅|[相交链表][160]|206&nbsp;✅|[反转链表][206]|234&nbsp;✅|[回文链表][234]|328|[奇偶链表][328]|
-  |445|[两数相加 II][445]|725|[分隔链表][725]|141&nbsp;✅|[环形链表][141]|148&nbsp;✅|[排序链表][148] |
-  |142&nbsp;✅|[环形链表Ⅱ][142]|25|[每k个一组翻转链表][25]|2&nbsp;✅|[两数相加][2]|
+  |19&nbsp;✅|[删除链表的倒数第N个结点][19]|21&nbsp;✅|[合并两个有序链表][21]|24&nbsp;✅|[两两交换链表中的节点][24]|83&nbsp;✅|[删除排序链表中的重复元素][83]|
+  |160&nbsp;✅|[相交链表][160]|206&nbsp;✅|[反转链表][206]|234&nbsp;✅|[回文链表][234]|328&nbsp;✅|[奇偶链表][328]|
+  |445&nbsp;✅|[两数相加 II][445]|725&nbsp;✅|[分隔链表][725]|141&nbsp;✅|[环形链表][141]|148&nbsp;✅|[排序链表][148] |
+  |142&nbsp;✅|[环形链表Ⅱ][142]|25|[每k个一组翻转链表][25]|2&nbsp;✅|[两数相加][2]|86nbsp;✅|[分隔链表][86]|
 ### Tree
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -224,6 +224,7 @@
 [78]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No78
 [79]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No79
 [83]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No83
+[86]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No86
 [88]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No88
 [91]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No91
 [94]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No94

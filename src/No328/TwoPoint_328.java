@@ -11,6 +11,7 @@ import structure.ListNode;
  */
 public class TwoPoint_328 {
     public ListNode oddEvenList(ListNode head) {
+
         if (head == null) {
             return head;
         }

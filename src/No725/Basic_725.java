@@ -10,6 +10,7 @@ import structure.ListNode;
  */
 public class Basic_725 {
     public ListNode[] splitListToParts(ListNode head, int k) {
+
         ListNode[] result = new ListNode[k];
         int len = 0;
         ListNode cur = head;

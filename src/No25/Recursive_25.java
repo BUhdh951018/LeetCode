@@ -1,5 +1,7 @@
 package No25;
 
+import structure.ListNode;
+
 import java.util.List;
 
 public class Recursive_25 {

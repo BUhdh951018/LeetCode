@@ -11,16 +11,17 @@ import structure.ListNode;
  */
 public class Iterate_83 {
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null || head.next == null)
-            return head;
-        ListNode preHead = head;
-        while (preHead.next != null) {
-            if (preHead.val == preHead.next.val) {
-                preHead.next = preHead.next.next;
-            } else {
-                preHead = preHead.next;
+
+        ListNode node = head;
+
+        while (node != null && node.next != null) {
+            if (node.val == node.next.val)
+                node.next = node.next.next;
+            else {
+                node = node.next;
             }
         }
+
         return head;
     }
 }
