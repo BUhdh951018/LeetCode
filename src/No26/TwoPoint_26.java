@@ -7,15 +7,15 @@ package No26;
  */
 public class TwoPoint_26 {
     public int removeDuplicates(int[] nums) {
-        int slow = 1, fast = 1;
-        while (slow < nums.length) {
-            if (nums[fast] != nums[fast - 1]) {
-                nums[slow] = nums[fast];
-                slow++;
+        int slow = 0, fast = 0;
+
+        while (fast < nums.length) {
+            if (nums[slow] != nums[fast]) {
+                nums[++slow] = nums[fast];
             }
             fast++;
         }
 
-        return slow;
+        return slow + 1;
     }
 }
