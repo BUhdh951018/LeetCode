@@ -30,8 +30,9 @@
 #### Backtrack
   | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 17&nbsp;✅ | [电话号码的字母组合][17] | 22&nbsp;✅ | [括号生成][22]| 39&nbsp;✅  | [组合总和][39] | 46 | [全排列][46] | 
-  | 55 | [跳跃游戏][55] | 78&nbsp;✅ | [子集][78]| 538 | [把二叉搜索树转换为累加树][538] |
+  | 17&nbsp;✅ | [电话号码的字母组合][17] | 22&nbsp;✅ | [括号生成][22]| 39&nbsp;✅  | [组合总和][39] | 46&nbsp;✅  | [全排列][46] | 
+  | 55 | [跳跃游戏][55] | 78&nbsp;✅ | [子集][78]| 538 | [把二叉搜索树转换为累加树][538] | 51 | [N 皇后][51] |
+  | 52 | [N 皇后II][52] |
 #### Depth-first Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -48,7 +49,7 @@
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 70&nbsp;✅ | [爬楼梯][70] | 198&nbsp;✅ | [打家劫舍][198] | 213 | [打家劫舍II][213] |
   | 337&nbsp;✅ | [打家劫舍Ⅲ][337] | 118 | [杨辉三角][118] | 119 | [杨辉三角 II][119] |
-  | 509 | [斐波那契数][509] | 1137 | [第 N 个泰波那契数][1137] | 746 | [使用最小花费爬楼梯][746] |
+  | 509&nbsp;✅ | [斐波那契数][509] | 1137 | [第 N 个泰波那契数][1137] | 746 | [使用最小花费爬楼梯][746] |
   | 740 | [删除并获得点数][740] | 120 | [三角形最小路径和][120] |
 * 字符串&字串
 
@@ -211,6 +212,8 @@
 [48]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No48
 [49]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No49
 [50]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No50
+[51]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No51
+[52]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No52
 [53]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No53
 [55]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No55
 [56]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No56

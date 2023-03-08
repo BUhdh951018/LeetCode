@@ -5,37 +5,34 @@ import java.util.Collections;
 import java.util.List;
 
 public class backtrack_46 {
-    public static List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> result = new ArrayList();
+    private List<List<Integer>> res;
+    private int n;
 
-        ArrayList<Integer> temp = new ArrayList<Integer>();
-        for (int num: nums){
-            temp.add(num);
-        }
-        int len = nums.length;
-        backtrack(len, result, temp, 0);
-        return result;
+    public List<List<Integer>> permute(int[] nums) {
+        res = new ArrayList<>();
+        List<Integer> route = new ArrayList<>();
+        n = nums.length;
+        boolean[] used = new boolean[n];
+        backtrack(nums, used, route);
+        return res;
     }
 
-    public static void backtrack(int len, List<List<Integer>> result, ArrayList<Integer> temp, int start) {
-        if (start == len) {
-            result.add(new ArrayList<Integer>(temp));
+    private void backtrack(int[] nums, boolean[] used, List<Integer> route) {
+        if (route.size() == n) {
+            res.add(new ArrayList<>(route));
+            return;
         }
 
-        for (int i = start; i < len; i++) {
-            Collections.swap(temp, start, i);
+        for (int i = 0; i < n; i++) {
+            if (used[i]) {
+                continue;
+            }
 
-            backtrack(len, result, temp, start + 1);
-
-            Collections.swap(temp, start, i);
+            used[i] = true;
+            route.add(nums[i]);
+            backtrack(nums, used, route);
+            route.remove(route.size() - 1);
+            used[i] = false;
         }
-
     }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 2, 3};
-        List<List<Integer>> result = permute(nums);
-        System.out.println(result);
-    }
-
 }
