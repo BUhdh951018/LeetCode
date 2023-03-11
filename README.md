@@ -30,9 +30,11 @@
 #### Backtrack
   | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | 17&nbsp;✅ | [电话号码的字母组合][17] | 22&nbsp;✅ | [括号生成][22]| 39&nbsp;✅  | [组合总和][39] | 46&nbsp;✅  | [全排列][46] | 
-  | 55 | [跳跃游戏][55] | 78&nbsp;✅ | [子集][78]| 538 | [把二叉搜索树转换为累加树][538] | 51 | [N 皇后][51] |
-  | 52 | [N 皇后II][52] |
+  |17&nbsp;✅|[电话号码的字母组合][17]|22&nbsp;✅|[括号生成][22]|55|[跳跃游戏][55]|538|[把二叉搜索树转换为累加树][538]|
+  |39&nbsp;✅ |[组合总和][39]|40&nbsp;✅|[组合总和 II][40]|46&nbsp;✅|[全排列][46]|47&nbsp;✅|[全排列 II][47]|
+  |77&nbsp;✅|[组合][77]|78&nbsp;✅|[子集][78]|90&nbsp;✅|[子集 II][90]|216&nbsp;✅|[组合总和 III][216]|
+  |51&nbsp;✅|[N 皇后][51]|52&nbsp;✅|[N 皇后II][52]|
+  
 #### Depth-first Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -41,7 +43,7 @@
 #### Breadth-first Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | Offer 13 | [机器人的运动范围][o13]| 200 | [岛屿数量][200] |
+  | Offer 13 | [机器人的运动范围][o13]| 200 | [岛屿数量][200] |111&nbsp;✅|[二叉树的最小深度][111]|752&nbsp;✅|[打开转盘锁][752]|
 ### Dynamic Programming
 * 斐波那契
 
@@ -206,9 +208,11 @@
 [33]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No33
 [34]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No34
 [39]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No39
+[40]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No40
 [42]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No42
 [45]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No45
 [46]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No46
+[47]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No47
 [48]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No48
 [49]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No49
 [50]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No50
@@ -224,11 +228,13 @@
 [70]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No70
 [72]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No72
 [75]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No75
+[77]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No77
 [78]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No78
 [79]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No79
 [83]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No83
 [86]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No86
 [88]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No88
+[90]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No90
 [91]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No91
 [94]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No94
 [96]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No96
@@ -276,6 +282,7 @@
 [208]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No208
 [213]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No213
 [215]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No215
+[216]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No216
 [217]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No217
 [221]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No221
 [225]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No225
@@ -376,6 +383,7 @@
 [740]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No740
 [744]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No744
 [746]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No746
+[752]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No752
 [766]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No766
 [769]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No769
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
