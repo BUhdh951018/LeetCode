@@ -6,7 +6,7 @@
   |11&nbsp;✅|[盛最多水的容器][11]|42|[接雨水][42]|876|[链表的中间结点][876]|15&nbsp;✅|[三数之和][15]|
   |27&nbsp;✅|[移除元素][27]|26&nbsp;✅|[删除有序数组中的重复项][26]|167&nbsp;✅|[两数之和 II - 输入有序数组][167]|633&nbsp;✅|[平方数之和][633]|
   |345&nbsp;✅|[反转字符串中的元音字母][345]|680&nbsp;✅|[验证回文字符串 Ⅱ][680]|88&nbsp;✅|[合并两个有序数组][88]|524|[通过删除字母匹配到字典里最长单词][524]|
-  |287|[寻找重复数][287]|344&nbsp;✅|[反转字符串][344]|5&nbsp;✅|[最长回文子串][5]|
+  |287|[寻找重复数][287]|344&nbsp;✅|[反转字符串][344]|5&nbsp;✅|[最长回文子串][5]|18&nbsp;✅|[四数之和][18]|
 ### Sort
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -199,6 +199,7 @@
 [14]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No14
 [15]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No15
 [17]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No17
+[18]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No19
 [19]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No19
 [20]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No20
 [21]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No21
