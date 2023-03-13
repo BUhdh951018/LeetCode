@@ -2,27 +2,46 @@ package No34;
 
 public class binary_34 {
     public int[] searchRange(int[] nums, int target) {
-        int left = search(nums, target, true);
-        int right = search(nums, target, false);
-        if (left != right)
-            right--;
-        if (left <= right && right < nums.length && nums[left] == target && nums[right] == target)
-            return new int[]{left, right};
+        int leftSearch = leftSearch(nums, target);
+        int rightSearch = rightSearch(nums, target);
 
-        return new int[]{-1, -1};
+        return new int[]{leftSearch, rightSearch};
     }
 
-    private int search(int[] nums, int target, boolean left) {
-        int lo = 0, hi = nums.length - 1;
-        while (lo <= hi) {
-            int mid = (lo + hi) / 2;
-            if (nums[mid] > target || (left && nums[mid] == target)) {
-                hi = mid - 1;
-            } else {
-                lo = mid + 1;
-            }
+    private int leftSearch(int[] nums, int target) {
+        int left = 0, right = nums.length;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target)
+                right = mid;
+            else if (nums[mid] < target)
+                left = mid + 1;
+            else if (nums[mid] > target)
+                right = mid;
         }
 
-        return lo;
+        if (left == nums.length)
+            return -1;
+
+        return nums[left] == target ? left : -1;
+    }
+
+    private int rightSearch(int[] nums, int target) {
+        int left = 0, right = nums.length;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target)
+                left = mid + 1;
+            else if (nums[mid] < target)
+                left = mid + 1;
+            else if (nums[mid] > target)
+                right = mid;
+        }
+        if (right - 1 < 0)
+            return -1;
+
+        return nums[right - 1] == target ? right - 1 : -1;
     }
 }

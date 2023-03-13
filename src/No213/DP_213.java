@@ -9,28 +9,25 @@ import java.util.Arrays;
  */
 public class DP_213 {
     public int rob(int[] nums) {
-
-        if (nums == null || nums.length == 0)
-            return 0;
         int n = nums.length;
         if (n == 1)
             return nums[0];
         if (n == 2)
             return Math.max(nums[0], nums[1]);
 
-        return Math.max(rob(nums, 0, n - 2),
-                rob(nums, 1, n - 1));
+        return Math.max(rob(nums, 0, n - 2), rob(nums, 1, n - 1));
+
     }
 
     private int rob(int[] nums, int start, int end) {
-        int[] dp = new int[nums.length + 2];
-        dp[0] = 0;
-        dp[1] = 0;
-        for (int i = start; i <= end; i++) {
-            int j = i + 2;
-            dp[j] = Math.max(nums[i] + dp[j - 2], dp[j - 1]);
+        int[] dp = new int[nums.length - 1];
+        dp[0] = nums[start];
+        dp[1] = Math.max(nums[start], nums[start + 1]);
+
+        for (int i = start + 2, j = 2; i <= end && j < nums.length - 1; i++, j++) {
+            dp[j] = Math.max(dp[j - 2] + nums[i], dp[j - 1]);
         }
-        System.out.println(Arrays.toString(dp));
-        return dp[nums.length + start];
+
+        return dp[nums.length - 2];
     }
 }

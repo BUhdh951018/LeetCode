@@ -24,6 +24,7 @@
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   |33&nbsp;✅|[搜索旋转排序数组][33]|34&nbsp;✅|[在排序数组中查找元素的第一个和最后一个][34]| 69 | [x的平方根][69]|153|[寻找旋转排序数组中的最小值][153]|
   |300|[最长上升子序列][300]|852|[山脉数组的峰顶索引][852]| 4&nbsp;✅ | [寻找两个正序数组的中位数][4] | 744 | [寻找比目标字母大的最小字母][744] |
+  |704&nbsp;✅|[二分查找][704]
 ### 分治 
 
 ### Searching
@@ -44,6 +45,10 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | Offer 13 | [机器人的运动范围][o13]| 200 | [岛屿数量][200] |111&nbsp;✅|[二叉树的最小深度][111]|752&nbsp;✅|[打开转盘锁][752]|
+#### Sliding Window
+| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  |3&nbsp;✅|[无重复字符的最长子串][3]|438&nbsp;✅|[找到字符串中所有字母异位词][438]|567&nbsp;✅|[字符串的排列][567]|76&nbsp;✅|[最小覆盖子串][76]|
 ### Dynamic Programming
 * 斐波那契
 
@@ -89,8 +94,8 @@
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  | 121&nbsp;✅ |[买卖股票的最佳时机][121]| 122 |[买卖股票的最佳时机II][122]| 123 |[买卖股票的最佳时机III][123]|
-  | 188 |[买卖股票的最佳时机IV][188]| 309&nbsp;✅ |[最佳买卖股票时机含冷冻期][309]| 714 |[买卖股票的最佳时机含手续费][714]|
+  | 121&nbsp;✅ |[买卖股票的最佳时机][121]| 122&nbsp;✅ |[买卖股票的最佳时机II][122]| 123&nbsp;✅ |[买卖股票的最佳时机III][123]|
+  | 188&nbsp;✅ |[买卖股票的最佳时机IV][188]| 309&nbsp;✅ |[最佳买卖股票时机含冷冻期][309]| 714&nbsp;✅ |[买卖股票的最佳时机含手续费][714]|
   
 * 基本递推
 
@@ -147,9 +152,8 @@
 ### Hash
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  |3&nbsp;✅|[无重复字符的最长子串][3]|49&nbsp;✅|[字母异位词分组][49]|337|[打家劫舍Ⅲ][337]|1&nbsp;✅|[两数之和][1]|
+  |49&nbsp;✅|[字母异位词分组][49]|337|[打家劫舍Ⅲ][337]|1&nbsp;✅|[两数之和][1]|560&nbsp;✅|[和为 K 的子数组][560]|
   |128&nbsp;✅|[最长连续序列][128]|217|[存在重复元素][217]|594|[最长和谐子序列][594]|13|[罗马数字转整数][13]|
-  |560&nbsp;✅|[和为 K 的子数组][560]|
 ### String
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -228,6 +232,7 @@
 [70]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No70
 [72]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No72
 [75]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No75
+[76]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No76
 [77]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No77
 [78]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No78
 [79]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No79
@@ -329,6 +334,7 @@
 [416]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No416
 [435]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No435
 [437]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No437
+[438]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No438
 [445]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No445
 [448]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No448
 [451]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No451
@@ -354,6 +360,7 @@
 [560]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No560
 [565]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No565
 [566]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No566
+[567]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No567
 [572]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No572
 [581]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No581
 [583]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No583
@@ -377,6 +384,7 @@
 [695]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No695
 [696]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No696
 [697]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No697
+[704]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No704
 [714]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No714
 [725]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No725
 [739]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No739

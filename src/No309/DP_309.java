@@ -8,19 +8,16 @@ package No309;
 
 public class DP_309 {
     public int maxProfit(int[] prices) {
-        int n = prices.length;
-        int[] buy = new int[n];
-        int[] sell1 = new int[n];
-        int[] sell2 = new int[n];
-        buy[0] = -prices[0];
-        sell1[0] = 0;
-        sell2[0] = 0;
-        for (int i = 1; i < n; i++) {
-            buy[i] = Math.max(buy[i - 1], sell2[i - 1] - prices[i]);
-            sell1[i] = buy[i - 1] + prices[i];
-            sell2[i] = Math.max(sell1[i - 1], sell2[i - 1]);
+        int buy = -prices[0];
+        int sell1 = 0;
+        int sell2 = 0;
+
+        for (int i = 1; i < prices.length; i++) {
+            buy = Math.max(buy, sell2 - prices[i]);
+            sell2 = Math.max(sell1, sell2);
+            sell1 = Math.max(sell1, buy + prices[i]);
         }
 
-        return Math.max(sell1[n - 1], sell2[n - 1]);
+        return Math.max(sell1, sell2);
     }
 }
