@@ -1,6 +1,6 @@
 package No48;
 
-public class solution_48 {
+public class RotateDirectly_48 {
     public void rotate(int[][] matrix) {
         int temp;
         int n = matrix.length;

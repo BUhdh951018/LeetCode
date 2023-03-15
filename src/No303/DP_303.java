@@ -7,7 +7,7 @@ package No303;
  */
 public class DP_303 {
 
-    private int[] sums;
+    private final int[] sums;
 
     public DP_303(int[] nums) {
         sums = new int[nums.length];

@@ -6,22 +6,32 @@ package No48;
  * Description:
  */
 public class basic_48 {
-    // 先水平 再对角
+    // 先右对称轴，再水平
     public void rotate(int[][] matrix) {
-        int len = matrix[0].length;
-        int temp = 0;
-        for (int i = 0; i < len / 2; i++)
-            for (int j = 0; j < len; j++) {
-                temp = matrix[i][j];
-                matrix[i][j] = matrix[len - i - 1][j];
-                matrix[len - i - 1][i] = temp;
-            }
+        int m = matrix.length;
+        int n = matrix[0].length;
+        /* { 1, 2, 3
+             4, 5, 6
+             7, 8, 9 }
+         */
 
-        for (int i = 0; i < len; i++)
+        for (int i = 0; i < m; i++) {
             for (int j = 0; j < i; j++) {
-                temp = matrix[i][j];
+                int temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
                 matrix[j][i] = temp;
+            }
+        }
+        /* { 1, 4, 7
+             2, 5, 8
+             3, 6, 9 }
+         */
+
+        for (int i = 0; i < m; i++)
+            for (int j = 0; j < n / 2; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[i][n - j - 1];
+                matrix[i][n - j - 1] = temp;
             }
     }
 }

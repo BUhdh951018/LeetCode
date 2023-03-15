@@ -3,10 +3,9 @@
 ### Double Point
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  |11&nbsp;✅|[盛最多水的容器][11]|42|[接雨水][42]|15&nbsp;✅|[三数之和][15]|
-  |27&nbsp;✅|[移除元素][27]|26&nbsp;✅|[删除有序数组中的重复项][26]|167&nbsp;✅|[两数之和 II - 输入有序数组][167]|633&nbsp;✅|[平方数之和][633]|
+  |11&nbsp;✅|[盛最多水的容器][11]|42|[接雨水][42]|15&nbsp;✅|[三数之和][15]|633&nbsp;✅|[平方数之和][633]|
   |345&nbsp;✅|[反转字符串中的元音字母][345]|680&nbsp;✅|[验证回文字符串 Ⅱ][680]|88&nbsp;✅|[合并两个有序数组][88]|524|[通过删除字母匹配到字典里最长单词][524]|
-  |287|[寻找重复数][287]|344&nbsp;✅|[反转字符串][344]|5&nbsp;✅|[最长回文子串][5]|18&nbsp;✅|[四数之和][18]|
+  |287|[寻找重复数][287]|18&nbsp;✅|[四数之和][18]|151&nbsp;✅|[翻转字符串里的单词][151]|
 ### Sort
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -69,8 +68,7 @@
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  | 279&nbsp;✅ | [完全平方数][279] | 343 | [整数拆分][343] | 303 | [区域和检索- 数组不可变][303] |
-  | 91 | [解码方法][91] |
+  | 279&nbsp;✅ | [完全平方数][279] | 343 | [整数拆分][343] | 91 | [解码方法][91] |
 * 矩阵
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -110,8 +108,7 @@
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | 69 | [x的平方根][69]| 75 | [颜色分类][75] | 892 | [三维形体的表面积][892] | 9 | [回文数][9] |
   | 136 | [只出现一次的数字][136]| Offer 62 | [圆圈中最后剩下的数字][o62]| 466 | [统计重复个数][466]| 914 | [卡牌分组][914] |
-  | 999 | [可以被一步捕获的棋子数][999]| 1248 | [统计优美子数组][1248] | 48&nbsp;✅ | [旋转图像][48] | 50 | [Pow(x, n)][50] |
-  | 169&nbsp;✅ | [多数元素][169] |
+  | 999 | [可以被一步捕获的棋子数][999]| 1248 | [统计优美子数组][1248] | 50 | [Pow(x, n)][50] | 169&nbsp;✅ | [多数元素][169] |
 ## Structure
 ### LinkedList
 * 双指针
@@ -120,16 +117,16 @@
   |19&nbsp;✅|[删除链表的倒数第N个结点][19]|21&nbsp;✅|[合并两个有序链表][21]|23&nbsp;✅|[合并K个升序链表][23]|
   |160&nbsp;✅|[相交链表][160]|141&nbsp;✅|[环形链表][141]|142&nbsp;✅|[环形链表Ⅱ][142]|
   |876&nbsp;✅|[链表的中间结点][876]|86&nbsp;✅|[分隔链表][86]|234&nbsp;✅|[回文链表][234]|
-  
+  |83&nbsp;✅|[删除排序链表中的重复元素][83]|
 * 递归
   | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: |
-  |206&nbsp;✅|[反转链表][206]|92&nbsp;✅|[反转链表II][92]|25|[每k个一组翻转链表][25]|
+  |206&nbsp;✅|[反转链表][206]|92&nbsp;✅|[反转链表II][92]|25&nbsp;✅|[每k个一组翻转链表][25]|
  
 * 其他
   | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: |
-  |24&nbsp;✅|[两两交换链表中的节点][24]|83&nbsp;✅|[删除排序链表中的重复元素][83]|725&nbsp;✅|[分隔链表][725]|
+  |24&nbsp;✅|[两两交换链表中的节点][24]|725&nbsp;✅|[分隔链表][725]|
   |328&nbsp;✅|[奇偶链表][328]|2&nbsp;✅|[两数相加][2]|148&nbsp;✅|[排序链表][148]|
   |445&nbsp;✅|[两数相加 II][445]|
 ### Tree
@@ -172,12 +169,31 @@
   | 14 | [最长公共前缀][14] | 205 | [同构字符串][205] | 242 | [有效的字母异位词][242] | 696 | [计数二进制子串][696] |
   | 8 | [字符串转换整形][8] | 647&nbsp;✅ | [回文子串][647] |
 ### Array & Matrix
-| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
-  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  |283&nbsp;✅|[移动零][283]|566|[重塑矩阵][566]|485|[最大连续 1 的个数][485]|240|[搜索二维矩阵 II][240]|
-  |378|[有序矩阵中第 K 小的元素][378]|287&nbsp;✅|[寻找重复数][287]|667|[优美的排列 II][667]|697|[数组的度][697]|
-  |766|[托普利茨矩阵][766]|565|[数组嵌套][565]|769|[最多能完成排序的块][769]|238&nbsp;✅|[除自身以外数组的乘积][238]|
-  |448&nbsp;✅|[找到所有数组中消失的数字][448]|581&nbsp;✅|[最短无序连续子数组][581]|
+* 双指针
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |283&nbsp;✅|[移动零][283]27&nbsp;✅|[移除元素][27]|26&nbsp;✅|[删除有序数组中的重复项][26]|
+  |167&nbsp;✅|[两数之和 II - 输入有序数组][167]|344&nbsp;✅|[反转字符串][344]|5&nbsp;✅|[最长回文子串][5]|
+* 前缀和 DP
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |303&nbsp;✅|[区域和检索 - 数组不可变][303]|304&nbsp;✅|[二维区域和检索 - 矩阵不可变][304]|
+* 差分数组
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |1094|[拼车][1094]|1109|[航班预订统计][1109]|
+* 遍历
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |48&nbsp;✅|[旋转图像][48]|54&nbsp;✅|[螺旋矩阵][54]|59&nbsp;✅|[螺旋矩阵 II][59]|
+* 其他
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |566|[重塑矩阵][566]|485|[最大连续 1 的个数][485]|240|[搜索二维矩阵 II][240]|
+  |378|[有序矩阵中第 K 小的元素][378]|287&nbsp;✅|[寻找重复数][287]|667|[优美的排列 II][667]|
+  |697|[数组的度][697]|238&nbsp;✅|[除自身以外数组的乘积][238]|581&nbsp;✅|[最短无序连续子数组][581]|
+  |766|[托普利茨矩阵][766]|565|[数组嵌套][565]|769|[最多能完成排序的块][769]|
+  |448&nbsp;✅|[找到所有数组中消失的数字][448]|
 ### Graph
 
 ### Bit
@@ -237,8 +253,10 @@
 [51]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No51
 [52]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No52
 [53]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No53
+[54]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No54
 [55]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No55
 [56]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No56
+[59]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No59
 [62]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No62
 [63]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No63
 [64]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No64
@@ -324,6 +342,7 @@
 [289]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No289
 [300]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No300
 [303]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No303
+[304]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No304
 [309]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No309
 [318]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No318
 [322]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No322
@@ -417,6 +436,7 @@
 [931]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No931
 [999]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No999
 [1014]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1014
+[1094]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1094
 [1111]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1111
 [1137]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1137
 [1143]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1143
