@@ -21,9 +21,9 @@
 ### Binary Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  |33&nbsp;✅|[搜索旋转排序数组][33]|34&nbsp;✅|[在排序数组中查找元素的第一个和最后一个][34]| 69 | [x的平方根][69]|153|[寻找旋转排序数组中的最小值][153]|
-  |300|[最长上升子序列][300]|852|[山脉数组的峰顶索引][852]| 4&nbsp;✅ | [寻找两个正序数组的中位数][4] | 744 | [寻找比目标字母大的最小字母][744] |
-  |704&nbsp;✅|[二分查找][704]
+  |33&nbsp;✅|[搜索旋转排序数组][33]|34&nbsp;✅|[在排序数组中查找元素的第一个和最后一个][34]|69| [x的平方根][69]|153|[寻找旋转排序数组中的最小值][153]|
+  |300|[最长上升子序列][300]|852|[山脉数组的峰顶索引][852]|4&nbsp;✅|[寻找两个正序数组的中位数][4]|744|[寻找比目标字母大的最小字母][744] |
+  |704&nbsp;✅|[二分查找][704]|
 ### 分治 
 
 ### Searching
@@ -48,6 +48,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   |3&nbsp;✅|[无重复字符的最长子串][3]|438&nbsp;✅|[找到字符串中所有字母异位词][438]|567&nbsp;✅|[字符串的排列][567]|76&nbsp;✅|[最小覆盖子串][76]|
+  |187&nbsp;✅|[重复的DNA序列][187]|28&nbsp;✅|[找出字符串中第一个匹配项的下标][28]|
 ### Dynamic Programming
 * 斐波那契
 
@@ -130,6 +131,9 @@
   |328&nbsp;✅|[奇偶链表][328]|2&nbsp;✅|[两数相加][2]|148&nbsp;✅|[排序链表][148]|
   |445&nbsp;✅|[两数相加 II][445]|
 ### Tree
+* 遍历
+
+* 递归
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |94&nbsp;✅|[二叉树的中序遍历][94]|101&nbsp;✅|[对称二叉树][101]|104&nbsp;✅|[二叉树的最大深度][104]|108|[将有序数组转换为二叉搜索树][108]|
@@ -174,10 +178,11 @@
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |283&nbsp;✅|[移动零][283]27&nbsp;✅|[移除元素][27]|26&nbsp;✅|[删除有序数组中的重复项][26]|
   |167&nbsp;✅|[两数之和 II - 输入有序数组][167]|344&nbsp;✅|[反转字符串][344]|5&nbsp;✅|[最长回文子串][5]|
+  |870&nbsp;✅|[优势洗牌][870]|
 * 前缀和 DP
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  |303&nbsp;✅|[区域和检索 - 数组不可变][303]|304&nbsp;✅|[二维区域和检索 - 矩阵不可变][304]|
+  |303&nbsp;✅|[区域和检索 - 数组不可变][303]|304&nbsp;✅|[二维区域和检索 - 矩阵不可变][304]|528&nbsp;✅|[按权重随机选择][528]|
 * 差分数组
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
@@ -186,6 +191,10 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |48&nbsp;✅|[旋转图像][48]|54&nbsp;✅|[螺旋矩阵][54]|59&nbsp;✅|[螺旋矩阵 II][59]|
+* O(1)
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |380&nbsp;✅|[O(1) 时间插入、删除和获取随机元素][380]|710&nbsp;✅|[黑名单中的随机数][710]|
 * 其他
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
@@ -237,6 +246,7 @@
 [25]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No25
 [26]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No26
 [27]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No27
+[28]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No28
 [31]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No31
 [32]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No32
 [33]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No33
@@ -429,6 +439,7 @@
 [766]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No766
 [769]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No769
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
+[870]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No870
 [876]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No876
 [892]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No892
 [912]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No912
