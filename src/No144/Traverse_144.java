@@ -12,7 +12,7 @@ import java.util.List;
  * Assignment
  * Description:
  */
-public class Recursive_144 {
+public class Traverse_144 {
     private List<Integer> ans = new ArrayList<>();
 
     public List<Integer> preorderTraversal(TreeNode root) {

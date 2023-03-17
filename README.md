@@ -132,19 +132,28 @@
   |445&nbsp;✅|[两数相加 II][445]|
 ### Tree
 * 遍历
-
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |144&nbsp;✅|[二叉树的前序遍历][144]|104&nbsp;✅|[二叉树的最大深度][104]|543&nbsp;✅|[二叉树的直径][543]|
+  |226&nbsp;✅|[翻转二叉树][226]|116&nbsp;✅|[填充每个节点的下一个右侧节点指针][116]|
 * 递归
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |104&nbsp;✅|[二叉树的最大深度][104]|226&nbsp;✅|[翻转二叉树][226]|114&nbsp;✅|[二叉树展开为链表][114]|
+  |654&nbsp;✅|[最大二叉树][654]|105&nbsp;✅|[从前序与中序遍历序列构造二叉树][105]|106&nbsp;✅|[从中序与后序遍历序列构造二叉树][106]|
+  |889&nbsp;✅|[根据前序和后序遍历构造二叉树][889]|
+* 其他
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|94&nbsp;✅|[二叉树的中序遍历][94]|101&nbsp;✅|[对称二叉树][101]|104&nbsp;✅|[二叉树的最大深度][104]|108|[将有序数组转换为二叉搜索树][108]|
+|94&nbsp;✅|[二叉树的中序遍历][94]|101&nbsp;✅|[对称二叉树][101]|108|[将有序数组转换为二叉搜索树][108]|
 |109|[有序链表转换二叉搜索树][110]|110|[平衡二叉树][110]|111|[二叉树的最小深度][111]|112|[路经总和][112]|
-|144&nbsp;✅|[二叉树的前序遍历][144]|145|[二叉树的后序遍历][145]|208&nbsp;✅|[实现Trie(前缀树)][208]|226&nbsp;✅|[翻转二叉树][226]|
+|145|[二叉树的后序遍历][145]|208&nbsp;✅|[实现Trie(前缀树)][208]|
 |230|[二叉搜索树中第k小的元素][230]|235|[二叉搜索树的最近公共祖先][235]|236&nbsp;✅|[二叉树的最近公共祖先][236]|337|[打家劫舍III][337]|
-|404|[左子叶之和][404]|102&nbsp;✅|[二叉树的层序遍历][102]|105&nbsp;✅|[从前序与中序遍历序列构造二叉树][105]| 199 | [二叉树的右视图][199] |
+|404|[左子叶之和][404]|102&nbsp;✅|[二叉树的层序遍历][102]| 199 | [二叉树的右视图][199] |
 |437|[路径总和III][437]|501|[二叉搜索树中的众数][501]|513|[找树左下角的值][513]|530|[二叉搜索树的最小绝对差][530]
-|538&nbsp;✅|[把二叉搜索树转换为累加树][538]|543&nbsp;✅|[二叉树的直径][543]|572|[另一棵树的子树][572]|617&nbsp;✅|[合并二叉树][617]|
+|538&nbsp;✅|[把二叉搜索树转换为累加树][538]|572|[另一棵树的子树][572]|617&nbsp;✅|[合并二叉树][617]|
 |637|[二叉树的层平均值][637]|653|[两数之和IV-输入BST][653]|669|[修剪二叉搜索树][669]|671|[二叉树中第二小的节点][671]|
-|677|[键值映射][677]|687|[最长同值路径][687]|114&nbsp;✅|[二叉树展开为链表][114]|98&nbsp;✅|[验证二叉搜索树][98]|
+|677|[键值映射][677]|687|[最长同值路径][687]|98&nbsp;✅|[验证二叉搜索树][98]|
 
 ### Stack
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
@@ -291,12 +300,14 @@
 [102]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No102
 [104]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No104
 [105]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No105
+[106]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No106
 [108]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No108
 [109]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No109
 [110]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No110
 [111]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No111
 [112]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No112
 [114]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No114
+[116]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No116
 [118]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No118
 [119]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No119
 [120]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No120
@@ -319,6 +330,7 @@
 [160]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No160
 [167]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No167
 [169]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No169
+[187]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No187
 [188]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No188
 [190]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No190
 [198]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No198
@@ -369,6 +381,7 @@
 [376]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No376
 [377]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No377
 [378]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No378
+[380]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No380
 [392]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No392
 [394]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No394
 [404]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No404
@@ -417,6 +430,7 @@
 [647]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No647
 [650]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No650
 [653]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No653
+[654]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No654
 [665]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No665
 [667]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No667
 [669]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No669
@@ -429,6 +443,7 @@
 [696]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No696
 [697]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No697
 [704]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No704
+[710]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No710
 [714]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No714
 [725]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No725
 [739]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No739
@@ -441,6 +456,7 @@
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
 [870]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No870
 [876]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No876
+[889]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No889
 [892]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No892
 [912]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No912
 [914]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No914

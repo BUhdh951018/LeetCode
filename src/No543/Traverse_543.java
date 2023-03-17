@@ -2,7 +2,7 @@ package No543;
 
 import structure.TreeNode;
 
-public class Recursive_543 {
+public class Traverse_543 {
     int ans;
     public int diameterOfBinaryTree(TreeNode root) {
         ans = 0;
