@@ -2,7 +2,7 @@ package No98;
 
 import structure.TreeNode;
 
-public class iteration_98 {
+public class Recursive_98 {
     public boolean isValidBST(TreeNode root) {
         return help(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }

@@ -4,7 +4,7 @@ import structure.TreeNode;
 
 import java.util.Stack;
 
-public class middle_98 {
+public class Iteration_98 {
     public boolean isValidBST(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         double inorder = - Double.MAX_VALUE;

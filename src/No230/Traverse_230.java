@@ -12,7 +12,7 @@ import java.util.List;
  * Assignment
  * Description:
  */
-public class InOrder_230 {
+public class Traverse_230 {
     private List<Integer> list = new ArrayList<>();
     public int kthSmallest(TreeNode root, int k) {
         dfs(root);

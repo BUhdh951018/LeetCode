@@ -102,7 +102,6 @@
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 42&nbsp;✅ | [接雨水][42] | 55 | [跳跃游戏][55] | 152&nbsp;✅ | [乘积最大子数组][152] |
   | 413 | [等差数列划分][413] | 53&nbsp;✅ | [最大子数组和][53] | 1014 | [最佳观光组合][1014] |
-  | 96&nbsp;✅ | [不同的二叉搜索树][96] |
    
 ### Math
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
@@ -114,19 +113,19 @@
 ### LinkedList
 * 双指针
   | Number | Answer | Number | Answer | Number | Answer |
-  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |19&nbsp;✅|[删除链表的倒数第N个结点][19]|21&nbsp;✅|[合并两个有序链表][21]|23&nbsp;✅|[合并K个升序链表][23]|
   |160&nbsp;✅|[相交链表][160]|141&nbsp;✅|[环形链表][141]|142&nbsp;✅|[环形链表Ⅱ][142]|
   |876&nbsp;✅|[链表的中间结点][876]|86&nbsp;✅|[分隔链表][86]|234&nbsp;✅|[回文链表][234]|
   |83&nbsp;✅|[删除排序链表中的重复元素][83]|
 * 递归
   | Number | Answer | Number | Answer | Number | Answer |
-  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |206&nbsp;✅|[反转链表][206]|92&nbsp;✅|[反转链表II][92]|25&nbsp;✅|[每k个一组翻转链表][25]|
  
 * 其他
   | Number | Answer | Number | Answer | Number | Answer |
-  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |24&nbsp;✅|[两两交换链表中的节点][24]|725&nbsp;✅|[分隔链表][725]|445&nbsp;✅|[两数相加 II][445]|
   |328&nbsp;✅|[奇偶链表][328]|2&nbsp;✅|[两数相加][2]|148&nbsp;✅|[排序链表][148]|
 ### Tree
@@ -145,19 +144,26 @@
 * 归并排序
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  |912&nbsp;✅|[排序数组][912]|315&nbsp;✅|[计算右侧小于当前元素的个数][315]|493nbsp;✅|[翻转对][493]|327nbsp;✅|[区间和的个数][327]|
+  |912&nbsp;✅|[排序数组][912]|315&nbsp;✅|[计算右侧小于当前元素的个数][315]|493nbsp;✅|[翻转对][493]|
+  |327nbsp;✅|[区间和的个数][327]|
+* BST
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |230&nbsp;✅|[二叉搜索树中第k小的元素][230]|538/1038&nbsp;✅|[把二叉搜索树转换为累加树][538]|98&nbsp;✅|[验证二叉搜索树][98]|
+  |700&nbsp;✅|[二叉搜索树中的搜索][700]|701&nbsp;✅|[二叉搜索树中的插入操作][701]|450&nbsp;✅|[删除二叉搜索树中的节点][450]|
+  |95&nbsp;✅|[不同的二叉搜索树II][95]|96&nbsp;✅|[不同的二叉搜索树][96]|
 * 其他
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |94&nbsp;✅|[二叉树的中序遍历][94]|101&nbsp;✅|[对称二叉树][101]|108|[将有序数组转换为二叉搜索树][108]|
 |109|[有序链表转换二叉搜索树][110]|110|[平衡二叉树][110]|111|[二叉树的最小深度][111]|112|[路经总和][112]|
 |145|[二叉树的后序遍历][145]|208&nbsp;✅|[实现Trie(前缀树)][208]|
-|230|[二叉搜索树中第k小的元素][230]|235|[二叉搜索树的最近公共祖先][235]|236&nbsp;✅|[二叉树的最近公共祖先][236]|337|[打家劫舍III][337]|
+|235|[二叉搜索树的最近公共祖先][235]|236&nbsp;✅|[二叉树的最近公共祖先][236]|337|[打家劫舍III][337]|
 |404|[左子叶之和][404]|102&nbsp;✅|[二叉树的层序遍历][102]| 199 | [二叉树的右视图][199] |
 |437|[路径总和III][437]|501|[二叉搜索树中的众数][501]|513|[找树左下角的值][513]|530|[二叉搜索树的最小绝对差][530]
 |538&nbsp;✅|[把二叉搜索树转换为累加树][538]|572|[另一棵树的子树][572]|617&nbsp;✅|[合并二叉树][617]|
 |637|[二叉树的层平均值][637]|653|[两数之和IV-输入BST][653]|669|[修剪二叉搜索树][669]|671|[二叉树中第二小的节点][671]|
-|677|[键值映射][677]|687|[最长同值路径][687]|98&nbsp;✅|[验证二叉搜索树][98]|
+|677|[键值映射][677]|687|[最长同值路径][687]|
 
 ### Stack
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
@@ -298,6 +304,7 @@
 [91]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No91
 [92]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No92
 [94]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No94
+[95]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No95
 [96]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No96
 [98]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No98
 [101]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No101
@@ -401,6 +408,7 @@
 [438]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No438
 [445]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No445
 [448]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No448
+[450]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No450
 [451]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No451
 [452]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No452
 [455]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No455
@@ -451,6 +459,8 @@
 [695]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No695
 [696]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No696
 [697]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No697
+[700]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No700
+[701]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No701
 [704]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No704
 [710]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No710
 [714]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No714
