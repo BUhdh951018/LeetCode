@@ -54,7 +54,7 @@
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  |198&nbsp;✅|[打家劫舍][198]|213|[打家劫舍II][213]|337&nbsp;✅|[打家劫舍Ⅲ][337]|
+  |198&nbsp;✅|[打家劫舍][198]|213&nbsp;✅|[打家劫舍II][213]|337&nbsp;✅|[打家劫舍Ⅲ][337]|
 * 斐波那契
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -166,7 +166,7 @@
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  |912|[排序数组][912]|215|[数组中的第K个最大元素][215]|
+  |912&nbsp;✅|[排序数组][912]|215&nbsp;✅|[数组中的第K个最大元素][215]|
 * 应用
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -176,7 +176,7 @@
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  |236&nbsp;✅|[二叉树的最近公共祖先][236]|235|[二叉搜索树的最近公共祖先][235]|
+  |236&nbsp;✅|[二叉树的最近公共祖先][236]|235&nbsp;✅|[二叉搜索树的最近公共祖先][235]|
 * 其他
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -249,7 +249,7 @@
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  |316|[去除重复字母][316]|
+  |316&nbsp;✅|[去除重复字母][316]|
 * 其他
 
   | Number | Answer | Number | Answer | Number | Answer |

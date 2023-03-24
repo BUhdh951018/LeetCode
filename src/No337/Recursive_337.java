@@ -12,7 +12,7 @@ import java.util.HashMap;
  * Description:
  */
 public class Recursive_337 {
-    private HashMap<TreeNode, Integer> map = new HashMap<>();
+    private final HashMap<TreeNode, Integer> map = new HashMap<>();
 
     public int rob(TreeNode root) {
         if (root == null)
