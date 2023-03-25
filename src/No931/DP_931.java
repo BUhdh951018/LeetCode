@@ -26,7 +26,6 @@ public class DP_931 {
         for (int num : dp[m - 1]) {
             res = Math.min(num, res);
         }
-
         return res;
     }
 }

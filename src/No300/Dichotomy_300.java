@@ -4,26 +4,25 @@ import java.util.Arrays;
 
 public class Dichotomy_300 {
     public int lengthOfLIS(int[] nums) {
-        int[] dp = new int[nums.length];
-
-        int ans = 0;
-
+        int[] heap = new int[nums.length];
+        int res = 0;
         for (int num : nums) {
-            int dp_point = 0, num_point = ans;
-            while (dp_point < num_point) {
-                int m = (dp_point + num_point) / 2;
-                if (dp[m] < num)
-                    dp_point = m + 1;
+            int left = 0, right = res;
+            while (left < right) {
+                int mid = left + (right - left) / 2;
+                if (heap[mid] > num) {
+                    right = mid;
+                } else if (heap[mid] < num)
+                    left = mid + 1;
                 else
-                    num_point = m;
+                    right = mid;
             }
 
-            dp[dp_point] = num;
-            if (ans == num_point)
-                ans++;
-            //System.out.println(Arrays.toString(dp));
+            if (left == res)
+                res++;
+            heap[left] = num;
         }
 
-        return ans;
+        return res;
     }
 }

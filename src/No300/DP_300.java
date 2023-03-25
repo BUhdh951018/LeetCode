@@ -7,7 +7,7 @@ import java.util.Arrays;
  * Date: 2022/5/10 8:02 下午
  * Description:
  */
-public class DP_300_1 {
+public class DP_300 {
     //time: O(n^2)
     public int lengthOfLIS(int[] nums) {
         int len = nums.length;

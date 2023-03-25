@@ -62,12 +62,18 @@
   | 70&nbsp;✅ | [爬楼梯][70] | 118 | [杨辉三角][118] | 119 | [杨辉三角 II][119] |
   | 509&nbsp;✅ | [斐波那契数][509] | 1137 | [第 N 个泰波那契数][1137] | 746 | [使用最小花费爬楼梯][746] |
   | 740 | [删除并获得点数][740] | 120 | [三角形最小路径和][120] |
+* 子序列
+
+  | Number | Answer | Number | Answer | Number | Answer |
+  | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
+  |300&nbsp;✅|[最长上升子序列][300]|354&nbsp;✅|[俄罗斯套娃信封问题][354]|72&nbsp;✅|[编辑距离][72]|
+  |53&nbsp;✅|[最大子数组和][53]|
 * 字符串&字串
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  | 300&nbsp;✅ | [最长上升子序列][300] | 376 | [摆动序列][376] | 646 | [最长数对链][646] |
-  | 72&nbsp;✅ | [编辑距离][72] | 583 | [两个字符串的删除操作][583] | 650 | [只有两个键的键盘][650] |
+  | 376 | [摆动序列][376] | 646 | [最长数对链][646] |
+  | 583 | [两个字符串的删除操作][583] | 650 | [只有两个键的键盘][650] |
   | 1143 | [最长公共子序列][1143] | 32&nbsp;✅ | [最长有效括号][32] |
 * 整数
 
@@ -79,7 +85,7 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 221&nbsp;✅ | [最大正方形][221] | 542 | [01 矩阵][542] |
-* 0-1 背包
+* 背包
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
@@ -91,7 +97,7 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 62&nbsp;✅ | [不同路径][62] | 63 | [不同路径 II][63] | 64&nbsp;✅ | [最小路径和][64] |
-  | 931 | [下降路径最小和][931] |
+  | 931&nbsp;✅ | [下降路径最小和][931] |
   
 * 股票交易
 
@@ -105,7 +111,7 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 42&nbsp;✅ | [接雨水][42] | 55 | [跳跃游戏][55] | 152&nbsp;✅ | [乘积最大子数组][152] |
-  | 413 | [等差数列划分][413] | 53&nbsp;✅ | [最大子数组和][53] | 1014 | [最佳观光组合][1014] |
+  | 413 | [等差数列划分][413] | 1014 | [最佳观光组合][1014] |
    
 ### Math
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
@@ -148,7 +154,7 @@
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |104&nbsp;✅|[二叉树的最大深度][104]|226&nbsp;✅|[翻转二叉树][226]|114&nbsp;✅|[二叉树展开为链表][114]|
   |654&nbsp;✅|[最大二叉树][654]|105&nbsp;✅|[从前序与中序遍历序列构造二叉树][105]|106&nbsp;✅|[从中序与后序遍历序列构造二叉树][106]|
-  |889&nbsp;✅|[根据前序和后序遍历构造二叉树][889]|222|[完全二叉树的节点个数][222]|
+  |889&nbsp;✅|[根据前序和后序遍历构造二叉树][889]|222&nbsp;✅|[完全二叉树的节点个数][222]|
 * 归并排序
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -171,7 +177,7 @@
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  |341|[扁平化嵌套列表迭代器][341]|
+  |341&nbsp;✅|[扁平化嵌套列表迭代器][341]|
 * LCA
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -417,6 +423,7 @@
 [304]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No304
 [309]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No309
 [315]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No315
+[316]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No316
 [318]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No318
 [322]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No322
 [327]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No327
@@ -429,6 +436,7 @@
 [344]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No344
 [345]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No345
 [347]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No347
+[354]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No354
 [355]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No355
 [371]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No371
 [376]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No376
@@ -465,6 +473,7 @@
 [513]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No513
 [518]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No518
 [524]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No524
+[528]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No528
 [530]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No530
 [538]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No538
 [542]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No542
@@ -522,6 +531,7 @@
 [999]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No999
 [1014]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1014
 [1094]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1094
+[1109]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1109
 [1111]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1111
 [1137]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1137
 [1143]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1143

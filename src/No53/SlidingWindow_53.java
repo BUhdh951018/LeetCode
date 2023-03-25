@@ -1,6 +1,6 @@
 package No53;
 
-public class solution_53 {
+public class SlidingWindow_53 {
     public int maxSubArray(int[] nums) {
         int ans = nums[0];
         int sum = 0;

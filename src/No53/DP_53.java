@@ -7,11 +7,18 @@ package No53;
  */
 public class DP_53 {
     public int maxSubArray(int[] nums) {
-        int temp = 0, max = nums[0];
-        for (int num : nums) {
-            temp = Math.max(temp + num, num);
-            max = Math.max(temp, max);
+        int left = 0, right = 0;
+        int window = 0;
+        int res = Integer.MIN_VALUE;
+        while (right < nums.length) {
+            window += nums[right++];
+
+            res = Math.max(res, window);
+
+            while (window < 0) {
+                window -= nums[left++];
+            }
         }
-        return max;
+        return res;
     }
 }
