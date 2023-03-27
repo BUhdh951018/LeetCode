@@ -67,14 +67,14 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |300&nbsp;✅|[最长上升子序列][300]|354&nbsp;✅|[俄罗斯套娃信封问题][354]|72&nbsp;✅|[编辑距离][72]|
-  |53&nbsp;✅|[最大子数组和][53]|
+  |53&nbsp;✅|[最大子数组和][53]|1143&nbsp;✅|[最长公共子序列][1143]|583&nbsp;✅|[两个字符串的删除操作][583]|
+  |712&nbsp;✅|[两个字符串的最小ASCII删除和][712]|
 * 字符串&字串
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  | 376 | [摆动序列][376] | 646 | [最长数对链][646] |
-  | 583 | [两个字符串的删除操作][583] | 650 | [只有两个键的键盘][650] |
-  | 1143 | [最长公共子序列][1143] | 32&nbsp;✅ | [最长有效括号][32] |
+  | 376 | [摆动序列][376] | 646 | [最长数对链][646] |32&nbsp;✅ | [最长有效括号][32] |
+  | 650 | [只有两个键的键盘][650] |
 * 整数
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -97,7 +97,7 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 62&nbsp;✅ | [不同路径][62] | 63 | [不同路径 II][63] | 64&nbsp;✅ | [最小路径和][64] |
-  | 931&nbsp;✅ | [下降路径最小和][931] |
+  | 931&nbsp;✅ | [下降路径最小和][931] |174|[地下城游戏][174]|
   
 * 股票交易
 
@@ -384,6 +384,7 @@
 [160]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No160
 [167]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No167
 [169]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No169
+[174]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No174
 [187]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No187
 [188]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No188
 [190]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No190
@@ -511,6 +512,7 @@
 [701]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No701
 [704]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No704
 [710]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No710
+[712]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No712
 [714]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No714
 [725]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No725
 [739]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No739
