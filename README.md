@@ -55,6 +55,7 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |198&nbsp;✅|[打家劫舍][198]|213&nbsp;✅|[打家劫舍II][213]|337&nbsp;✅|[打家劫舍Ⅲ][337]|
+  |312&nbsp;✅|[戳气球][312]|486/877&nbsp;✅|[预测赢家][486]|
 * 斐波那契
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -68,13 +69,13 @@
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   |300&nbsp;✅|[最长上升子序列][300]|354&nbsp;✅|[俄罗斯套娃信封问题][354]|72&nbsp;✅|[编辑距离][72]|
   |53&nbsp;✅|[最大子数组和][53]|1143&nbsp;✅|[最长公共子序列][1143]|583&nbsp;✅|[两个字符串的删除操作][583]|
-  |712&nbsp;✅|[两个字符串的最小ASCII删除和][712]|
+  |712&nbsp;✅|[两个字符串的最小ASCII删除和][712]|514&nbsp;✅|[自由之路][514]|
 * 字符串&字串
 
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
-  | 376 | [摆动序列][376] | 646 | [最长数对链][646] |32&nbsp;✅ | [最长有效括号][32] |
-  | 650 | [只有两个键的键盘][650] |
+  | 376 | [摆动序列][376] | 646 | [最长数对链][646] | 32&nbsp;✅ | [最长有效括号][32] |
+  | 650 | [只有两个键的键盘][650] | 10&nbsp;✅ | [正则表达式匹配][10] |
 * 整数
 
   | Number | Answer | Number | Answer | Number | Answer |
@@ -97,7 +98,8 @@
   | Number | Answer | Number | Answer | Number | Answer |
   | :---:  | :---:  | :---:  | :---:  | :---:  | :---:  |
   | 62&nbsp;✅ | [不同路径][62] | 63 | [不同路径 II][63] | 64&nbsp;✅ | [最小路径和][64] |
-  | 931&nbsp;✅ | [下降路径最小和][931] |174|[地下城游戏][174]|
+  | 931&nbsp;✅ | [下降路径最小和][931] | 174&nbsp;✅ | [地下城游戏][174] | 787&nbsp;✅ | [K 站中转内最便宜的航班][787] |
+  | 1928&nbsp;✅ | [规定时间内到达终点的最小花费][1928] |
   
 * 股票交易
 
@@ -293,6 +295,7 @@
 [5]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No5
 [8]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No8
 [9]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No9
+[10]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No10
 [11]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No11
 [13]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No13
 [14]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No14
@@ -423,6 +426,7 @@
 [303]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No303
 [304]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No304
 [309]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No309
+[312]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No312
 [315]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No315
 [316]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No316
 [318]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No318
@@ -466,12 +470,14 @@
 [474]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No474
 [476]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No476
 [485]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No485
+[486]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No486
 [493]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No493
 [494]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No494
 [501]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No501
 [503]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No503
 [509]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No509
 [513]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No513
+[514]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No514
 [518]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No518
 [524]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No524
 [528]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No528
@@ -522,6 +528,7 @@
 [752]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No752
 [766]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No766
 [769]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No769
+[787]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No787
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
 [870]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No870
 [876]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No876
@@ -538,6 +545,7 @@
 [1137]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1137
 [1143]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1143
 [1248]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1248
+[1928]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1928
 [o9]: https://github.com/BUhdh951018/LeetCode/tree/master/src/Offer9
 [o13]: https://github.com/BUhdh951018/LeetCode/tree/master/src/Offer13
 [o40]: https://github.com/BUhdh951018/LeetCode/tree/master/src/Offer40
