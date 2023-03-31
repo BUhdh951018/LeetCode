@@ -7,7 +7,7 @@ import java.util.*;
  * Date: 2023/2/23 3:19 下午
  * Description:
  */
-public class DFS_207 {
+public class BFS_207 {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> list = new ArrayList<>();
 
@@ -17,8 +17,8 @@ public class DFS_207 {
 
         int[] direct = new int[numCourses];
         for (int[] course : prerequisites) {
-            list.get(course[0]).add(course[1]);
-            direct[course[1]]++;
+            list.get(course[1]).add(course[0]);
+            direct[course[0]]++;
         }
         int count = 0;
 

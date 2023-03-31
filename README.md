@@ -39,7 +39,7 @@
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
   | Offer 13 | [机器人的运动范围][o13] | 39 | [组合总和][39] | 79&nbsp;✅ | [单词搜索][79] | 200&nbsp;✅ | [岛屿数量][200] |
-  | 695 | [岛屿的最大面积][695] | 207&nbsp;✅ | [课程表][207] |
+  | 695 | [岛屿的最大面积][695] |
 #### Breadth-first Search
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -269,6 +269,10 @@
   |448&nbsp;✅|[找到所有数组中消失的数字][448]|
 ### Graph
 
+  | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  |797&nbsp;✅|[所有可能的路径][797]|207&nbsp;✅|[课程表][207]|210&nbsp;✅|[课程表 II][210]|785&nbsp;✅|[判断二分图][785]|
+  |886&nbsp;✅|[可能的二分法][886]|743&nbsp;✅|[网络延迟时间][743]|1631&nbsp;✅|[最小体力消耗路径][1631]|1514&nbsp;✅|[概率最大的路径][1514]|
 ### Bit
   | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -398,6 +402,7 @@
 [206]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No206
 [207]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No207
 [208]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No208
+[210]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No210
 [213]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No213
 [215]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No215
 [216]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No216
@@ -523,15 +528,19 @@
 [725]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No725
 [739]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No739
 [740]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No740
+[743]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No743
 [744]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No744
 [746]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No746
 [752]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No752
 [766]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No766
 [769]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No769
+[785]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No785
 [787]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No787
+[797]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No797
 [852]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No852
 [870]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No870
 [876]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No876
+[886]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No886
 [889]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No889
 [892]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No892
 [912]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No912
@@ -545,6 +554,8 @@
 [1137]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1137
 [1143]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1143
 [1248]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1248
+[1514]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1514
+[1631]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1631
 [1928]: https://github.com/BUhdh951018/LeetCode/tree/master/src/No1928
 [o9]: https://github.com/BUhdh951018/LeetCode/tree/master/src/Offer9
 [o13]: https://github.com/BUhdh951018/LeetCode/tree/master/src/Offer13

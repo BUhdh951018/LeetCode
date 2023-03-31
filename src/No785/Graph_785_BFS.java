@@ -1,5 +1,6 @@
 package No785;
 
+import java.lang.reflect.Array;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -32,7 +33,6 @@ public class Graph_785_BFS {
                 }
             }
         }
-
         return true;
     }
 }

@@ -6,30 +6,37 @@ package No785;
  * Description:
  */
 public class Graph_785_DFS {
+
+    private boolean[] visited;
+    private boolean[] color;
+    private boolean res = true;
+
     public boolean isBipartite(int[][] graph) {
-        int[] visited = new int[graph.length];
-
-        for (int i = 0; i < graph.length; i++) {
-            if (visited[i] == 0 && !dfs(graph, i, 1, visited)) {
-                return false;
-            }
+        int n = graph.length;
+        visited = new boolean[n];
+        color = new boolean[n];
+        for (int i = 0; i < n; i++) {
+            if (!visited[i])
+                traverse(graph, i);
         }
-
-        return true;
+        return res;
     }
 
-    private boolean dfs(int[][] graph, int v, int color, int[] visited) {
-        if (visited[v] != 0) {
-            return visited[v] == color;
-        }
-
-        visited[v] = color;
-        for (int w : graph[v]) {
-            if (!dfs(graph, w, -color, visited)) {
-                return false;
+    private void traverse(int[][] graph, int index) {
+        if (!res)
+            return;
+        visited[index] = true;
+        for (int temp : graph[index]) {
+            if (!visited[temp]) {
+                color[temp] = !color[index];
+                traverse(graph, temp);
+            } else {
+                if (color[temp] == color[index]) {
+                    res = false;
+                    return;
+                }
             }
         }
-
-        return true;
     }
+
 }
