@@ -4,32 +4,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class backtrack_22 {
-    public static List<String> generateParenthesis(int n) {
-        List<String> result = new ArrayList();
-        backtrack(result, "", 0, 0, n);
-        return result;
+    public List<String> generateParenthesis(int n) {
+        List<String> res = new ArrayList<>();
+        StringBuilder sb = new StringBuilder();
+        backtrack(n, n, res, sb);
+        return res;
     }
 
-    public static void backtrack(List<String> result, String temp, int start, int end, int max) {
-        if (temp.length() == max * 2) {
-            result.add(temp);
+    private void backtrack(int left, int right, List<String> res, StringBuilder sb) {
+        if (right < left)
+            return;
+        if (left < 0)
+            return;
+        if (left == 0 && right == 0) {
+            res.add(sb.toString());
             return;
         }
+        sb.append('(');
+        backtrack(left - 1, right, res, sb);
+        sb.deleteCharAt(sb.length() - 1);
 
-        if (end < start) {
-            backtrack(result, temp + ")", start, end + 1, max);
-        }
-
-        if (start < max) {
-            backtrack(result, temp + "(", start + 1, end, max);
-        }
-
-    }
-
-    public static void main (String[] args) {
-        List<String> result = new ArrayList();
-        result = generateParenthesis(3);
-        System.out.println(result);
-        System.out.println(result.size());
+        sb.append(')');
+        backtrack(left, right - 1, res, sb);
+        sb.deleteCharAt(sb.length() - 1);
     }
 }

@@ -33,17 +33,19 @@
   |17&nbsp;✅|[电话号码的字母组合][17]|22&nbsp;✅|[括号生成][22]|55|[跳跃游戏][55]|538|[把二叉搜索树转换为累加树][538]|
   |39&nbsp;✅ |[组合总和][39]|40&nbsp;✅|[组合总和 II][40]|46&nbsp;✅|[全排列][46]|47&nbsp;✅|[全排列 II][47]|
   |77&nbsp;✅|[组合][77]|78&nbsp;✅|[子集][78]|90&nbsp;✅|[子集 II][90]|216&nbsp;✅|[组合总和 III][216]|
-  |51&nbsp;✅|[N 皇后][51]|52&nbsp;✅|[N 皇后II][52]|
+  |51&nbsp;✅|[N 皇后][51]|52&nbsp;✅|[N 皇后II][52]|698&nbsp;✅|[划分为k个相等的子集][698]|37&nbsp;✅|[解数独][37]|
   
 #### Depth-first Search
-| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+
+  | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | Offer 13 | [机器人的运动范围][o13] | 39 | [组合总和][39] | 79&nbsp;✅ | [单词搜索][79] | 200&nbsp;✅ | [岛屿数量][200] |
-  | 695 | [岛屿的最大面积][695] |
+  |Offer 13|[机器人的运动范围][o13]|39|[组合总和][39]|79&nbsp;✅|[单词搜索][79]|200&nbsp;✅|[岛屿数量][200]|
+  |695&nbsp;✅|[岛屿的最大面积][695]|1254&nbsp;✅|[统计封闭岛屿的数目][1254]|1020&nbsp;✅|[飞地的数量][1020]|1905&nbsp;✅|[统计子岛屿][1905]|
 #### Breadth-first Search
-| Number | Answer | Number | Answer | Number | Answer | Number | Answer |
+
+  | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-  | Offer 13 | [机器人的运动范围][o13]| 200 | [岛屿数量][200] |111&nbsp;✅|[二叉树的最小深度][111]|752&nbsp;✅|[打开转盘锁][752]|
+  |Offer 13|[机器人的运动范围][o13]|111&nbsp;✅|[二叉树的最小深度][111]|752&nbsp;✅|[打开转盘锁][752]|773&nbsp;✅|[滑动谜题][773]|
 #### Sliding Window
 | Number | Answer | Number | Answer | Number | Answer | Number | Answer |
   | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
