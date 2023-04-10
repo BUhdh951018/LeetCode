@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Array_645 {
     public int[] findErrorNums(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            while (nums[i] != i + 1 &&nums[nums[i] - 1] != nums[i]) {
+            while (nums[i] != i + 1 && nums[nums[i] - 1] != nums[i]) {
                 swap(nums, i, nums[i] - 1);
             }
         }

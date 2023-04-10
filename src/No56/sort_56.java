@@ -8,27 +8,25 @@ import java.util.List;
 public class sort_56 {
     public int[][] merge(int[][] intervals) {
 
-        // 数组首位排序
-        Arrays.sort(intervals, (v1, v2) -> v1[0] - v2[0]);
-
-        int[] curr_interval = intervals[0];
-        List<int[]> list = new ArrayList<>();
-        list.add(curr_interval);
-        for(int[] interval: intervals) {
-
-            int curr_end = curr_interval[1];
-
-            int next_begin = interval[0];
-            int next_end = interval[1];
-
-            if(curr_end >= next_begin) {
-                curr_interval[1] = Math.max(curr_end, next_end);
-            } else {
-                curr_interval = interval;
-                list.add(curr_interval);
+        Arrays.sort(intervals, (a, b) -> {
+            return a[0] == b[0] ? b[1] - a[1] : a[0] - b[0];
+        });
+        List<int[]> res = new ArrayList<>();
+        int[] first = intervals[0];
+        res.add(first);
+        for (int[] cur : intervals) {
+            int curLeft = cur[0], curRight = cur[1];
+            if (curLeft >= first[0] && curRight <= first[1])
+                continue;
+            if (curLeft <= first[1] && curRight >= first[1]) {
+                first[1] = curRight;
+                continue;
+            }
+            if (curLeft > first[0]) {
+                res.add(cur);
+                first = cur;
             }
         }
-
-        return list.toArray(new int[list.size()][]);
+        return res.toArray(new int[res.size()][]);
     }
 }
